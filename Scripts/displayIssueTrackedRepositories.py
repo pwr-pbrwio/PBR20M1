@@ -18,9 +18,6 @@ def display(filename):
         print(data[rowId])
 
 
-print("All repositories")
-display("MLCQUniqueRepos.csv")
-
 print("Github repositories")
 display("MLCQGithubRepos.csv")
 
