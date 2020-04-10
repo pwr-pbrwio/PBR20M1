@@ -9,7 +9,7 @@ from pbr.getMLCQRepositories import getMLCQRepos
 
 # Path to MLCQ database in cvs format
 mlcqCSVPath = r'MLCQCodeSmellSamples.csv'
-commandFormat = r'java -jar ../../../../szz/szz_find_bug_introducers.jar -i "./issue_list.json" -r "../../../repos/{owner}/{repo}"'
+commandFormat = r'java -jar ../../../../unleashed/szz_find_bug_introducers.jar -i "./issue_list.json" -r "../../../repos/{owner}/{repo}"'
 
 def chunkIt(seq, num):
   avg = len(seq) / float(num)
