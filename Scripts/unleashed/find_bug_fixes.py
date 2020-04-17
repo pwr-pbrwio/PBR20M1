@@ -17,7 +17,7 @@ def find_bug_fixes(issue_path, gitlog_path, gitlog_pattern):
     total_matches = 0
 
     issue_list = build_issue_list(issue_path)
-    with open(gitlog_path) as f:
+    with open(gitlog_path, encoding="utf8") as f:
         gitlog = json.loads(f.read())
 
     for key in issue_list:
@@ -68,7 +68,7 @@ def build_issue_list(path):
     """ Helper method for find_bug_fixes """
     issue_list = {}
     for filename in os.listdir(path):
-        with open(path + '/' + filename) as f:
+        with open(path + '/' + filename, encoding="utf8") as f:
             for issue in json.loads(f.read())['issues']:
                 issue_list[issue['key']] = {}
 
@@ -95,7 +95,7 @@ def main():
     """ Main method """
     # issue_list = find_bug_fixes(args.issue_list, args.gitlog, args.gitlog_pattern)
     issue_list = find_bug_fixes('./issues', './gitlog.json', r'SYNCOPE-{nbr}\D|#{nbr}\D')
-    with open('issue_list.json', 'w') as f:
+    with open('issue_list.json', 'w', encoding="utf8") as f:
         f.write(json.dumps(issue_list))
 
 if __name__ == '__main__':

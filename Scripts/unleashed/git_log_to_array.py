@@ -24,7 +24,7 @@ def git_log_to_json(init_hash, path_to_repo, outputPath):
         if i % 10 == 0:
             print(i, end='\r')
 
-    with open( outputPath + '/gitlog.json', 'w') as f:
+    with open( outputPath + '/gitlog.json', 'w', encoding="utf8") as f:
         f.write(json.dumps(logs))
 
 # Commits are saved in reverse chronological order from newest to oldest
