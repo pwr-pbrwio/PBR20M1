@@ -3,3 +3,5 @@
 /Scripts/issues
 /Scripts/repos
 .idea
+/results/
+.temp
