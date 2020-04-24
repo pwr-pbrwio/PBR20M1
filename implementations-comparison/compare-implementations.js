@@ -1,5 +1,6 @@
-const fs = require('fs');
+const fse = require('fs-extra');
 
+const REPO_NAME = 'commons-bcel';
 const OPENSZZ_RESULTS_JSON_FILE = './commons-bcel-data/openszz.json';
 const UNLEASHEDSZZ_RESULTS_JSON_FILE = './commons-bcel-data/unleashedszz.json';
 
@@ -47,26 +48,28 @@ const performDatasetAnalysis = (datasetName, dataset, fakeInducingCommits, fakeF
   console.log(`Results count without fake fixing commits: ${resultsWithoutFakeFixingCommits.length}`);
   console.log(`Results count without fake commits: ${resultsWithoutFakeCommits.length}`);
   console.log(`Results count without fake commits and duplicates: ${resultsWithoutFakeCommitsAndDuplicates.length}`);
-  // console.log('Further calculations performed on the set without fake commits and duplicates');
   console.log('\n');
 
-  fs.writeFileSync(
-    `./results/${datasetName}/results-without-fake-inducing-commits.json`,
-    JSON.stringify(resultsWithoutFakeInducingCommits)
+  fse.outputFileSync(
+    `./results-${REPO_NAME}/${datasetName}/results-without-fake-inducing-commits.json`,
+    JSON.stringify(resultsWithoutFakeInducingCommits, null, '\t')
   );
-  fs.writeFileSync(
-    `./results/${datasetName}/results-without-fake-fixing-commits.json`,
-    JSON.stringify(resultsWithoutFakeFixingCommits)
+  fse.outputFileSync(
+    `./results-${REPO_NAME}/${datasetName}/results-without-fake-fixing-commits.json`,
+    JSON.stringify(resultsWithoutFakeFixingCommits, null, '\t')
   );
-  fs.writeFileSync(
-    `./results/${datasetName}/results-without-fake-commits.json`,
-    JSON.stringify(resultsWithoutFakeCommits)
+  fse.outputFileSync(
+    `./results-${REPO_NAME}/${datasetName}/results-without-fake-commits.json`,
+    JSON.stringify(resultsWithoutFakeCommits, null, '\t')
   );
-  fs.writeFileSync(
-    `./results/${datasetName}/results-without-fake-commits-and-duplicates.json`,
-    JSON.stringify(resultsWithoutFakeCommitsAndDuplicates)
+  fse.outputFileSync(
+    `./results-${REPO_NAME}/${datasetName}/results-without-fake-commits-and-duplicates.json`,
+    JSON.stringify(resultsWithoutFakeCommitsAndDuplicates, null, '\t')
   );
-  fs.writeFileSync(`./results/${datasetName}/best-fixers.json`, JSON.stringify([...bestFixersMap]));
+  fse.outputFileSync(
+    `./results-${REPO_NAME}/${datasetName}/best-fixers.json`,
+    JSON.stringify([...bestFixersMap], null, '\t')
+  );
 };
 
 const performComparison = (openSZZResults, unleashedSZZTransformedResults) => {
@@ -98,8 +101,11 @@ const saveResults = (matchingPairs, uniqueMatchingPairs) => {
   console.log(`Matching unique pairs count: ${uniqueMatchingPairs.length}`);
   console.log('\n');
 
-  fs.writeFileSync('./results/matching-unique-pairs.json', JSON.stringify(uniqueMatchingPairs));
-  fs.writeFileSync('./results/matching-pairs.json', JSON.stringify(matchingPairs));
+  fse.outputFileSync(
+    `./results-${REPO_NAME}/matching-unique-pairs.json`,
+    JSON.stringify(uniqueMatchingPairs, null, '\t')
+  );
+  fse.outputFileSync(`./results-${REPO_NAME}/matching-pairs.json`, JSON.stringify(matchingPairs, null, '\t'));
 };
 
 const getUniquePairs = (pairs) => {
@@ -143,7 +149,7 @@ const readData = async () => {
 
 const loadJSONFile = (filepath) => {
   return new Promise((resolve, reject) => {
-    fs.readFile(filepath, 'utf8', (err, content) => {
+    fse.readFile(filepath, 'utf8', (err, content) => {
       if (err) {
         reject(err);
       } else {

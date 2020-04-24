@@ -1,5 +1,7 @@
 # Analysis
 
+Results of the `commons-bcel` were used.
+
 ## OpenSZZ
 
 - 250 results in 3m30s

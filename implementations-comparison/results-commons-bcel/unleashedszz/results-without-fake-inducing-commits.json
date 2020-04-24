@@ -1,0 +1,1834 @@
+[
+	{
+		"bugFixingId": "06d969a8fe228de6a637e832743cf6df518fceb0",
+		"bugInducingId": "2c76cda4b5a6032129b27c6e4806c5c683e5e715"
+	},
+	{
+		"bugFixingId": "06d969a8fe228de6a637e832743cf6df518fceb0",
+		"bugInducingId": "2c76cda4b5a6032129b27c6e4806c5c683e5e715"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "fc930bf633b34ce47274fcce68e60487f28913ca"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "4463a5ac3eb8fd2141e21ee61684a8bfb50609b4"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "fc930bf633b34ce47274fcce68e60487f28913ca"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "4463a5ac3eb8fd2141e21ee61684a8bfb50609b4"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "17683a0ac274d117598fd388d05a6b2a3370e0db"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "d0474edbfad324e68daa95e58d73b670d01ffca1"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "fc930bf633b34ce47274fcce68e60487f28913ca"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "d691d34fe17e5f673713e9ac231de48902e95df6"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "02f53e4fa6ec7fa339c8c9273183669d7f5928c9"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "17683a0ac274d117598fd388d05a6b2a3370e0db"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "d0474edbfad324e68daa95e58d73b670d01ffca1"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "fc930bf633b34ce47274fcce68e60487f28913ca"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "d691d34fe17e5f673713e9ac231de48902e95df6"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "02f53e4fa6ec7fa339c8c9273183669d7f5928c9"
+	},
+	{
+		"bugFixingId": "07e0698ed6961ac535a8971e52d61e53f877f58e",
+		"bugInducingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "82d7e096b6cda64d31571ed40db295d8a48c3d9d"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "55de3c0df1025ca6e1c064d8c8120a2c2030797f"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "b5363c326831e775791a2011c7da2d86188497d8"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "7a908fd556f041f8788452e943b0e9c8cedd7660"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "6430bee3005d1615f9d038a271460e64ff08a237"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "a22944b29002370a9c41ea5fdc442ebb0b199b0c"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "92fbce984f34eebd91193d9427e99875f56739b3"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "a9df93ae78f23eb8da7177674b58fc1e4bd3baf0"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "5b359afdcd5e097343cadc1fe53027712ce82e06"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "d658cae88da725890cdab04c0c7ec2a357940da2"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "8ac3e4d8cb64e354cb06b720614d498bfe021669"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "603aee913e5782662868eb86596912a3020049ed"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "645828a22f42387309b55f4d08586e8a219f01b4"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "ff6317ed4e2c76bffdfbaa9e836e7ae328bb3b74"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "d3a2f62b81ce1d9a3f1ff478608e0f5608b051e7"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "4c91ab1d1db8c7adf1177ae77ba6ed0c850a52bc"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "688f5cb3d0dfe949bb589c537d4fb31cab303b4d"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "dcd5c988d6cbf53c1e5b58812a412aca4ea9194d"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "57f47914edea6252f1144c69ae56d1a4567ae1ad"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "e0515efebf5525e894bdbb55c1a15a767a8d7f9f"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "82d7e096b6cda64d31571ed40db295d8a48c3d9d"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "55de3c0df1025ca6e1c064d8c8120a2c2030797f"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "b5363c326831e775791a2011c7da2d86188497d8"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "7a908fd556f041f8788452e943b0e9c8cedd7660"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "6430bee3005d1615f9d038a271460e64ff08a237"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "a22944b29002370a9c41ea5fdc442ebb0b199b0c"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "92fbce984f34eebd91193d9427e99875f56739b3"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "a9df93ae78f23eb8da7177674b58fc1e4bd3baf0"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "5b359afdcd5e097343cadc1fe53027712ce82e06"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "d658cae88da725890cdab04c0c7ec2a357940da2"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "8ac3e4d8cb64e354cb06b720614d498bfe021669"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "603aee913e5782662868eb86596912a3020049ed"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "645828a22f42387309b55f4d08586e8a219f01b4"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "ff6317ed4e2c76bffdfbaa9e836e7ae328bb3b74"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "d3a2f62b81ce1d9a3f1ff478608e0f5608b051e7"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "4c91ab1d1db8c7adf1177ae77ba6ed0c850a52bc"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "688f5cb3d0dfe949bb589c537d4fb31cab303b4d"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "dcd5c988d6cbf53c1e5b58812a412aca4ea9194d"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "57f47914edea6252f1144c69ae56d1a4567ae1ad"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "e0515efebf5525e894bdbb55c1a15a767a8d7f9f"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "6715e7e6caf3ed4078ffc11e91933e74b43c582c"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "4c91ab1d1db8c7adf1177ae77ba6ed0c850a52bc"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "57f47914edea6252f1144c69ae56d1a4567ae1ad"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "6715e7e6caf3ed4078ffc11e91933e74b43c582c"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "4c91ab1d1db8c7adf1177ae77ba6ed0c850a52bc"
+	},
+	{
+		"bugFixingId": "d45a94e4a366aebc3d666ace480a0d73040ee818",
+		"bugInducingId": "57f47914edea6252f1144c69ae56d1a4567ae1ad"
+	},
+	{
+		"bugFixingId": "d5b3c4d6b4eb96c1c13b2e74d4fdac86e70125c3",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "d5b3c4d6b4eb96c1c13b2e74d4fdac86e70125c3",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "d5b3c4d6b4eb96c1c13b2e74d4fdac86e70125c3",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "d5b3c4d6b4eb96c1c13b2e74d4fdac86e70125c3",
+		"bugInducingId": "083ba6106f9f27ea0c0137e0d35b016559865159"
+	},
+	{
+		"bugFixingId": "d5b3c4d6b4eb96c1c13b2e74d4fdac86e70125c3",
+		"bugInducingId": "30110fffbe17299fc92b2a623cff7f2590b54954"
+	},
+	{
+		"bugFixingId": "d5b3c4d6b4eb96c1c13b2e74d4fdac86e70125c3",
+		"bugInducingId": "e71856fc12fa22940b8c39867fe409c931964350"
+	},
+	{
+		"bugFixingId": "d5b3c4d6b4eb96c1c13b2e74d4fdac86e70125c3",
+		"bugInducingId": "083ba6106f9f27ea0c0137e0d35b016559865159"
+	},
+	{
+		"bugFixingId": "d5b3c4d6b4eb96c1c13b2e74d4fdac86e70125c3",
+		"bugInducingId": "30110fffbe17299fc92b2a623cff7f2590b54954"
+	},
+	{
+		"bugFixingId": "d5b3c4d6b4eb96c1c13b2e74d4fdac86e70125c3",
+		"bugInducingId": "e71856fc12fa22940b8c39867fe409c931964350"
+	},
+	{
+		"bugFixingId": "d5b3c4d6b4eb96c1c13b2e74d4fdac86e70125c3",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "0b85abad6a951191875d8cb2af84a7da804c30c9",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "0b85abad6a951191875d8cb2af84a7da804c30c9",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "0b85abad6a951191875d8cb2af84a7da804c30c9",
+		"bugInducingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76"
+	},
+	{
+		"bugFixingId": "0b85abad6a951191875d8cb2af84a7da804c30c9",
+		"bugInducingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76"
+	},
+	{
+		"bugFixingId": "9cfeb74ab75780f1e0c2983905b7e217ddc530a9",
+		"bugInducingId": "57f47914edea6252f1144c69ae56d1a4567ae1ad"
+	},
+	{
+		"bugFixingId": "9cfeb74ab75780f1e0c2983905b7e217ddc530a9",
+		"bugInducingId": "57f47914edea6252f1144c69ae56d1a4567ae1ad"
+	},
+	{
+		"bugFixingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2",
+		"bugInducingId": "6c3321ea4b1dd23964473221f376736c0e80c9b1"
+	},
+	{
+		"bugFixingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2",
+		"bugInducingId": "bece20a4a7e3af26ddd511c4fffd49e4977d430f"
+	},
+	{
+		"bugFixingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2",
+		"bugInducingId": "1c69ff4c0932b5a468e426e93909ff9686035732"
+	},
+	{
+		"bugFixingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2",
+		"bugInducingId": "6ecde2c42da4085c2e0270865aa3b7254029d237"
+	},
+	{
+		"bugFixingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2",
+		"bugInducingId": "4463a5ac3eb8fd2141e21ee61684a8bfb50609b4"
+	},
+	{
+		"bugFixingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2",
+		"bugInducingId": "6c3321ea4b1dd23964473221f376736c0e80c9b1"
+	},
+	{
+		"bugFixingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2",
+		"bugInducingId": "bece20a4a7e3af26ddd511c4fffd49e4977d430f"
+	},
+	{
+		"bugFixingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2",
+		"bugInducingId": "1c69ff4c0932b5a468e426e93909ff9686035732"
+	},
+	{
+		"bugFixingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2",
+		"bugInducingId": "6ecde2c42da4085c2e0270865aa3b7254029d237"
+	},
+	{
+		"bugFixingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2",
+		"bugInducingId": "4463a5ac3eb8fd2141e21ee61684a8bfb50609b4"
+	},
+	{
+		"bugFixingId": "8dab4e845ccbdb0a0f287c38ceafd7d15e417c06",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "8dab4e845ccbdb0a0f287c38ceafd7d15e417c06",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "72db2aafc72c0383228d7e055ea7a33c5b01c724"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "72db2aafc72c0383228d7e055ea7a33c5b01c724"
+	},
+	{
+		"bugFixingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "241fae4559427166733f2cabb134957d75f91251",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "241fae4559427166733f2cabb134957d75f91251",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "241fae4559427166733f2cabb134957d75f91251",
+		"bugInducingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76"
+	},
+	{
+		"bugFixingId": "241fae4559427166733f2cabb134957d75f91251",
+		"bugInducingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "72db2aafc72c0383228d7e055ea7a33c5b01c724"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "4c91ab1d1db8c7adf1177ae77ba6ed0c850a52bc"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "57f47914edea6252f1144c69ae56d1a4567ae1ad"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "72db2aafc72c0383228d7e055ea7a33c5b01c724"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "4c91ab1d1db8c7adf1177ae77ba6ed0c850a52bc"
+	},
+	{
+		"bugFixingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf",
+		"bugInducingId": "57f47914edea6252f1144c69ae56d1a4567ae1ad"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingId": "64b1e7b761dc2ae69e1af905f39f275a6efbcbc2"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "72db2aafc72c0383228d7e055ea7a33c5b01c724"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "72db2aafc72c0383228d7e055ea7a33c5b01c724"
+	},
+	{
+		"bugFixingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "54a95d899854ad5a0a7b896f99cd8ba68b89d471",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "54a95d899854ad5a0a7b896f99cd8ba68b89d471",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "54a95d899854ad5a0a7b896f99cd8ba68b89d471",
+		"bugInducingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76"
+	},
+	{
+		"bugFixingId": "54a95d899854ad5a0a7b896f99cd8ba68b89d471",
+		"bugInducingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76"
+	},
+	{
+		"bugFixingId": "d2883e2ade18d07cb76b0bf99d1b9a0aa66afdb2",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "d2883e2ade18d07cb76b0bf99d1b9a0aa66afdb2",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "d2883e2ade18d07cb76b0bf99d1b9a0aa66afdb2",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "d2883e2ade18d07cb76b0bf99d1b9a0aa66afdb2",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "86081411f480dd6cf8c7cbca74b9b8fa87f87992",
+		"bugInducingId": "85e33264feba0ba9578b1ff2c011e2d3c421516f"
+	},
+	{
+		"bugFixingId": "86081411f480dd6cf8c7cbca74b9b8fa87f87992",
+		"bugInducingId": "85e33264feba0ba9578b1ff2c011e2d3c421516f"
+	},
+	{
+		"bugFixingId": "86081411f480dd6cf8c7cbca74b9b8fa87f87992",
+		"bugInducingId": "6f142ddb3c026f00145232ebe4a501f1520963ed"
+	},
+	{
+		"bugFixingId": "86081411f480dd6cf8c7cbca74b9b8fa87f87992",
+		"bugInducingId": "4c91ab1d1db8c7adf1177ae77ba6ed0c850a52bc"
+	},
+	{
+		"bugFixingId": "86081411f480dd6cf8c7cbca74b9b8fa87f87992",
+		"bugInducingId": "c97882204ff0fe1ce47d85954287c8274a2d5f11"
+	},
+	{
+		"bugFixingId": "86081411f480dd6cf8c7cbca74b9b8fa87f87992",
+		"bugInducingId": "6f142ddb3c026f00145232ebe4a501f1520963ed"
+	},
+	{
+		"bugFixingId": "86081411f480dd6cf8c7cbca74b9b8fa87f87992",
+		"bugInducingId": "4c91ab1d1db8c7adf1177ae77ba6ed0c850a52bc"
+	},
+	{
+		"bugFixingId": "86081411f480dd6cf8c7cbca74b9b8fa87f87992",
+		"bugInducingId": "c97882204ff0fe1ce47d85954287c8274a2d5f11"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "6c3321ea4b1dd23964473221f376736c0e80c9b1"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "70e89e04d355ec40217cd08c9cdb4d9322a5c460"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "61ac1648e23b700da9375e5667cbf8a79e89cb4d"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "6e08c112527e45080ff99c6bb1ae4bd2165d292a"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "f640f4ea1b89be01d820cb8d25bc27d6506f89bb"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "6ecde2c42da4085c2e0270865aa3b7254029d237"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "4463a5ac3eb8fd2141e21ee61684a8bfb50609b4"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "f5e45f48223420fd391e076784c4eb3aca35de2e"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "12fa860b66d1e7ea61d1e2297edcd59857ce0c66"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "6c3321ea4b1dd23964473221f376736c0e80c9b1"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "70e89e04d355ec40217cd08c9cdb4d9322a5c460"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "61ac1648e23b700da9375e5667cbf8a79e89cb4d"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "6e08c112527e45080ff99c6bb1ae4bd2165d292a"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "f640f4ea1b89be01d820cb8d25bc27d6506f89bb"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "6ecde2c42da4085c2e0270865aa3b7254029d237"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "4463a5ac3eb8fd2141e21ee61684a8bfb50609b4"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "f5e45f48223420fd391e076784c4eb3aca35de2e"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugInducingId": "12fa860b66d1e7ea61d1e2297edcd59857ce0c66"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "d4c5e50d6ee83df8c981d898e5c4664fea739408"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "d532ec1089fdfd05004f143c87b96ed036a9abbf"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "6d2abd897ae832e2cc05481db45d57597064e3b4"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "14347856c9fd7cd7e1b7a15989b8b0f1aba24c9c"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "85e33264feba0ba9578b1ff2c011e2d3c421516f"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "14347856c9fd7cd7e1b7a15989b8b0f1aba24c9c"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "d4c5e50d6ee83df8c981d898e5c4664fea739408"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "d532ec1089fdfd05004f143c87b96ed036a9abbf"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "6d2abd897ae832e2cc05481db45d57597064e3b4"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "14347856c9fd7cd7e1b7a15989b8b0f1aba24c9c"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "85e33264feba0ba9578b1ff2c011e2d3c421516f"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "14347856c9fd7cd7e1b7a15989b8b0f1aba24c9c"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "14347856c9fd7cd7e1b7a15989b8b0f1aba24c9c"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "72db2aafc72c0383228d7e055ea7a33c5b01c724"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "d4c5e50d6ee83df8c981d898e5c4664fea739408"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "d532ec1089fdfd05004f143c87b96ed036a9abbf"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "6d2abd897ae832e2cc05481db45d57597064e3b4"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "85e33264feba0ba9578b1ff2c011e2d3c421516f"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "14347856c9fd7cd7e1b7a15989b8b0f1aba24c9c"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "d4c5e50d6ee83df8c981d898e5c4664fea739408"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "d532ec1089fdfd05004f143c87b96ed036a9abbf"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "6d2abd897ae832e2cc05481db45d57597064e3b4"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "85e33264feba0ba9578b1ff2c011e2d3c421516f"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "14347856c9fd7cd7e1b7a15989b8b0f1aba24c9c"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "14347856c9fd7cd7e1b7a15989b8b0f1aba24c9c"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "14347856c9fd7cd7e1b7a15989b8b0f1aba24c9c"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "72db2aafc72c0383228d7e055ea7a33c5b01c724"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "964c0c8fd6abdb4c32c050db3f129edef7232cbe",
+		"bugInducingId": "14347856c9fd7cd7e1b7a15989b8b0f1aba24c9c"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "6c3321ea4b1dd23964473221f376736c0e80c9b1"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "0b85abad6a951191875d8cb2af84a7da804c30c9"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "d886b01375eb77a26cdf35250f938e1e3c014ec6"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "8dc6bbae4dff5434ae0a112f1a9ace6066074906"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "5f5fa24f351870d57a196a2280ae7a0b668f26c7"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "d6fbb3d57fe2a1722d2c123f74dca83174f81358"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "70e89e04d355ec40217cd08c9cdb4d9322a5c460"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "a962daba86ca951dbfcfc9204b9d4a0e260b34c4"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "011d22895719c182ad3ddce859756154a2eb7a37"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "6c3321ea4b1dd23964473221f376736c0e80c9b1"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "0b85abad6a951191875d8cb2af84a7da804c30c9"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "d886b01375eb77a26cdf35250f938e1e3c014ec6"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "8dc6bbae4dff5434ae0a112f1a9ace6066074906"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "5f5fa24f351870d57a196a2280ae7a0b668f26c7"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "d6fbb3d57fe2a1722d2c123f74dca83174f81358"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "70e89e04d355ec40217cd08c9cdb4d9322a5c460"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "a962daba86ca951dbfcfc9204b9d4a0e260b34c4"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugInducingId": "011d22895719c182ad3ddce859756154a2eb7a37"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "5d063eabaeeb26a849ad4b9f0517ec5a49196bf5"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "d532ec1089fdfd05004f143c87b96ed036a9abbf"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "96ac0670cf9944d4912ab25ec885a4bea651443d"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "5d063eabaeeb26a849ad4b9f0517ec5a49196bf5"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "9fb1d7f8d2a0c135c43d4f8abb7211338a877870"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "8fdfb968c883fda52edb700cb9f8b948dd4967e1"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "da4ec29493d9497e9fc4b41910716613826530de"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "d532ec1089fdfd05004f143c87b96ed036a9abbf"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "96ac0670cf9944d4912ab25ec885a4bea651443d"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "5d063eabaeeb26a849ad4b9f0517ec5a49196bf5"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "d532ec1089fdfd05004f143c87b96ed036a9abbf"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "96ac0670cf9944d4912ab25ec885a4bea651443d"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "5d063eabaeeb26a849ad4b9f0517ec5a49196bf5"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "9fb1d7f8d2a0c135c43d4f8abb7211338a877870"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "8fdfb968c883fda52edb700cb9f8b948dd4967e1"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "da4ec29493d9497e9fc4b41910716613826530de"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "d532ec1089fdfd05004f143c87b96ed036a9abbf"
+	},
+	{
+		"bugFixingId": "67dfdf60f5f8ccb8ed910bfe9d1cdc6e84f0db36",
+		"bugInducingId": "96ac0670cf9944d4912ab25ec885a4bea651443d"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "c0e9f324eacc6bc8bcf3ae307bb659c27b7236b0"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "789557e9e21e9518083ecc69b8920c739d7759cc"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "762dcffcb4739af4b61330205051237e73bece09"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "93c12bbb6d22a165a407b6184cdb40545f86c683"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "bc6483cdbc2d1f65aceadb7de95417a6ecc45969"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "8e09c4dd0f87cd8e54df851a7e0d4689731b31ea"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "a1e4f67e9d5480de3d725295f562e98f6c45d79e"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "7ceb5a6b8236517d708d7965f4873344c5630969"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "5215032300c4df88e09ffcf48d2ba2fd769211b3"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "99c10d3650e2066eebe408ee65da6710692e5429"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "a42a1a0c8f75837b5527352b81f37e579e421562"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "54a95d899854ad5a0a7b896f99cd8ba68b89d471"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "efc4809b7b73febc18cdd8976ff8e9d6d4537ade"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "9fb4458609fe69ae4db5c7a1cbb2cfe700f2f136"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "763333c2572c5ebcb8f1d09c32876da987741c54"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "f896e6c9eb751b24de5637ab86731068fa0e2096"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "90e94269f7d64684ac7dc3fcbee055eea866d370"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "a2a9f2b3e335732dcd2b5462ea3f8af3a9c72080"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "df7a37858bdf7c465d6ba96637558695e42e2fe9"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "bf300c3e8f03bf9aa1ff66195d79cafd8a626cb0"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "8861e8a0656759384b6dabdb95bbaf8de753582b"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "8fa8def32abea7df7c3aaadeb2772fa66e47eea2"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "fc5fd06047bf751ec1a2ccd37c3efbd7f353cd1c"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "22f0897e19509cb2881ee8f0cfc578d1652385d2"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "75a8d8c69a3da99e6ab553b4f9947aac44af6928"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "d2883e2ade18d07cb76b0bf99d1b9a0aa66afdb2"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "d7bb2550dc0e5f68e1c28a46648ac60169794aef"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "f3bd0b79313c65d41260a7dfec6e041cc5e24674"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "c070c23750e4720fe44b92237b2b55559619e8ac"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "fdc460dce69c6ef2caaafaf9628ee94d07d17625"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "47c0e905bad838b751638c3e7d29637c52c8193f"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "7ea677edfec45c6b430ee7aebab944eee5f5589a"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "c4560eabcd60cd0f0e211978036519db748360fa"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "c96a3e5a40040ef43e0a51935a368458763d3424"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "6d1a43fbf3f8c90af2bb6c0194495fa5c1f9e10b"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "5df07263f9fd644e8045569b82fce08b50c008a2"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "fbcd823d35677e12d3bc37db531f3f18cdb17535"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "afd66447ba29e35f81e4777676d334aa0f523024"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "cfdf5903db9b6123df85afb35a35e480f14d2201"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "64dd3f0a22a5625f095666e27b7bddde84843883"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "190dee5fa3b5374f95ae8b3673705802789ed0a7"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "0d33e877b1642b1bb630415304b8d01de2ce427e"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "c0e9f324eacc6bc8bcf3ae307bb659c27b7236b0"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "789557e9e21e9518083ecc69b8920c739d7759cc"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "762dcffcb4739af4b61330205051237e73bece09"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "93c12bbb6d22a165a407b6184cdb40545f86c683"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "bc6483cdbc2d1f65aceadb7de95417a6ecc45969"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "8e09c4dd0f87cd8e54df851a7e0d4689731b31ea"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "a1e4f67e9d5480de3d725295f562e98f6c45d79e"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "7ceb5a6b8236517d708d7965f4873344c5630969"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "5215032300c4df88e09ffcf48d2ba2fd769211b3"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "99c10d3650e2066eebe408ee65da6710692e5429"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "a42a1a0c8f75837b5527352b81f37e579e421562"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "54a95d899854ad5a0a7b896f99cd8ba68b89d471"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "efc4809b7b73febc18cdd8976ff8e9d6d4537ade"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "9fb4458609fe69ae4db5c7a1cbb2cfe700f2f136"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "763333c2572c5ebcb8f1d09c32876da987741c54"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "f896e6c9eb751b24de5637ab86731068fa0e2096"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "90e94269f7d64684ac7dc3fcbee055eea866d370"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "a2a9f2b3e335732dcd2b5462ea3f8af3a9c72080"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "df7a37858bdf7c465d6ba96637558695e42e2fe9"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "bf300c3e8f03bf9aa1ff66195d79cafd8a626cb0"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "8861e8a0656759384b6dabdb95bbaf8de753582b"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "8fa8def32abea7df7c3aaadeb2772fa66e47eea2"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "fc5fd06047bf751ec1a2ccd37c3efbd7f353cd1c"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "22f0897e19509cb2881ee8f0cfc578d1652385d2"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "75a8d8c69a3da99e6ab553b4f9947aac44af6928"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "d2883e2ade18d07cb76b0bf99d1b9a0aa66afdb2"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "d7bb2550dc0e5f68e1c28a46648ac60169794aef"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "f3bd0b79313c65d41260a7dfec6e041cc5e24674"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "c070c23750e4720fe44b92237b2b55559619e8ac"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "fdc460dce69c6ef2caaafaf9628ee94d07d17625"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "47c0e905bad838b751638c3e7d29637c52c8193f"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "7ea677edfec45c6b430ee7aebab944eee5f5589a"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "c4560eabcd60cd0f0e211978036519db748360fa"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "c96a3e5a40040ef43e0a51935a368458763d3424"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "6d1a43fbf3f8c90af2bb6c0194495fa5c1f9e10b"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "5df07263f9fd644e8045569b82fce08b50c008a2"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "fbcd823d35677e12d3bc37db531f3f18cdb17535"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "afd66447ba29e35f81e4777676d334aa0f523024"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "cfdf5903db9b6123df85afb35a35e480f14d2201"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "64dd3f0a22a5625f095666e27b7bddde84843883"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "190dee5fa3b5374f95ae8b3673705802789ed0a7"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "0d33e877b1642b1bb630415304b8d01de2ce427e"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "d7292a3d9f2939f785ec74057d255e5df95846bf"
+	},
+	{
+		"bugFixingId": "586db1262d973fda630f04972093aaaf0bf54414",
+		"bugInducingId": "d7292a3d9f2939f785ec74057d255e5df95846bf"
+	},
+	{
+		"bugFixingId": "1fdd06ce9f554eb3c0a5e9d3c1288cf039c88a90",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "1fdd06ce9f554eb3c0a5e9d3c1288cf039c88a90",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "1fdd06ce9f554eb3c0a5e9d3c1288cf039c88a90",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "1fdd06ce9f554eb3c0a5e9d3c1288cf039c88a90",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "8dd181cb2646b5688676997c8f2725b443d39744",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "8dd181cb2646b5688676997c8f2725b443d39744",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "8dd181cb2646b5688676997c8f2725b443d39744",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "8dd181cb2646b5688676997c8f2725b443d39744",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "8dd181cb2646b5688676997c8f2725b443d39744",
+		"bugInducingId": "0498f3cedc124735e391d3ed746fd9a8100edb9f"
+	},
+	{
+		"bugFixingId": "8dd181cb2646b5688676997c8f2725b443d39744",
+		"bugInducingId": "8ad45b40d34952c124c03d975f8c9ecde9753345"
+	},
+	{
+		"bugFixingId": "1c9190cba4ca087a6bb6b0844ce028d4520a9fec",
+		"bugInducingId": "ea27ae4b861ca17d36835bd75b5e1de8bd9640db"
+	},
+	{
+		"bugFixingId": "1c9190cba4ca087a6bb6b0844ce028d4520a9fec",
+		"bugInducingId": "30110fffbe17299fc92b2a623cff7f2590b54954"
+	},
+	{
+		"bugFixingId": "1c9190cba4ca087a6bb6b0844ce028d4520a9fec",
+		"bugInducingId": "e71856fc12fa22940b8c39867fe409c931964350"
+	},
+	{
+		"bugFixingId": "1c9190cba4ca087a6bb6b0844ce028d4520a9fec",
+		"bugInducingId": "ea27ae4b861ca17d36835bd75b5e1de8bd9640db"
+	},
+	{
+		"bugFixingId": "1c9190cba4ca087a6bb6b0844ce028d4520a9fec",
+		"bugInducingId": "30110fffbe17299fc92b2a623cff7f2590b54954"
+	},
+	{
+		"bugFixingId": "1c9190cba4ca087a6bb6b0844ce028d4520a9fec",
+		"bugInducingId": "e71856fc12fa22940b8c39867fe409c931964350"
+	},
+	{
+		"bugFixingId": "1c9190cba4ca087a6bb6b0844ce028d4520a9fec",
+		"bugInducingId": "083ba6106f9f27ea0c0137e0d35b016559865159"
+	},
+	{
+		"bugFixingId": "1c9190cba4ca087a6bb6b0844ce028d4520a9fec",
+		"bugInducingId": "083ba6106f9f27ea0c0137e0d35b016559865159"
+	},
+	{
+		"bugFixingId": "bc6483cdbc2d1f65aceadb7de95417a6ecc45969",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "bc6483cdbc2d1f65aceadb7de95417a6ecc45969",
+		"bugInducingId": "40df3b4fe9054827669850bc0c19f5e112f8fb2a"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "c0e9f324eacc6bc8bcf3ae307bb659c27b7236b0"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "789557e9e21e9518083ecc69b8920c739d7759cc"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "93c12bbb6d22a165a407b6184cdb40545f86c683"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "bc6483cdbc2d1f65aceadb7de95417a6ecc45969"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "8e09c4dd0f87cd8e54df851a7e0d4689731b31ea"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "7ceb5a6b8236517d708d7965f4873344c5630969"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "5215032300c4df88e09ffcf48d2ba2fd769211b3"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "99c10d3650e2066eebe408ee65da6710692e5429"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "54a95d899854ad5a0a7b896f99cd8ba68b89d471"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "efc4809b7b73febc18cdd8976ff8e9d6d4537ade"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "763333c2572c5ebcb8f1d09c32876da987741c54"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "f896e6c9eb751b24de5637ab86731068fa0e2096"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "90e94269f7d64684ac7dc3fcbee055eea866d370"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "a2a9f2b3e335732dcd2b5462ea3f8af3a9c72080"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "df7a37858bdf7c465d6ba96637558695e42e2fe9"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "bf300c3e8f03bf9aa1ff66195d79cafd8a626cb0"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "8861e8a0656759384b6dabdb95bbaf8de753582b"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "fc5fd06047bf751ec1a2ccd37c3efbd7f353cd1c"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "22f0897e19509cb2881ee8f0cfc578d1652385d2"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "75a8d8c69a3da99e6ab553b4f9947aac44af6928"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "d2883e2ade18d07cb76b0bf99d1b9a0aa66afdb2"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "d7bb2550dc0e5f68e1c28a46648ac60169794aef"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "c070c23750e4720fe44b92237b2b55559619e8ac"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "fdc460dce69c6ef2caaafaf9628ee94d07d17625"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "47c0e905bad838b751638c3e7d29637c52c8193f"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "c4560eabcd60cd0f0e211978036519db748360fa"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "c96a3e5a40040ef43e0a51935a368458763d3424"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "6d1a43fbf3f8c90af2bb6c0194495fa5c1f9e10b"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "5df07263f9fd644e8045569b82fce08b50c008a2"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "fbcd823d35677e12d3bc37db531f3f18cdb17535"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "afd66447ba29e35f81e4777676d334aa0f523024"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "64dd3f0a22a5625f095666e27b7bddde84843883"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "0d33e877b1642b1bb630415304b8d01de2ce427e"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "c0e9f324eacc6bc8bcf3ae307bb659c27b7236b0"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "789557e9e21e9518083ecc69b8920c739d7759cc"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "93c12bbb6d22a165a407b6184cdb40545f86c683"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "bc6483cdbc2d1f65aceadb7de95417a6ecc45969"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "8e09c4dd0f87cd8e54df851a7e0d4689731b31ea"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "7ceb5a6b8236517d708d7965f4873344c5630969"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "5215032300c4df88e09ffcf48d2ba2fd769211b3"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "99c10d3650e2066eebe408ee65da6710692e5429"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "54a95d899854ad5a0a7b896f99cd8ba68b89d471"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "efc4809b7b73febc18cdd8976ff8e9d6d4537ade"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "763333c2572c5ebcb8f1d09c32876da987741c54"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "f896e6c9eb751b24de5637ab86731068fa0e2096"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "90e94269f7d64684ac7dc3fcbee055eea866d370"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "a2a9f2b3e335732dcd2b5462ea3f8af3a9c72080"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "df7a37858bdf7c465d6ba96637558695e42e2fe9"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "bf300c3e8f03bf9aa1ff66195d79cafd8a626cb0"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "8861e8a0656759384b6dabdb95bbaf8de753582b"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "9a09f41b03df238043e0eda59d5cfa11cdd36523"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "fc5fd06047bf751ec1a2ccd37c3efbd7f353cd1c"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "22f0897e19509cb2881ee8f0cfc578d1652385d2"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "75a8d8c69a3da99e6ab553b4f9947aac44af6928"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "d2883e2ade18d07cb76b0bf99d1b9a0aa66afdb2"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "d7bb2550dc0e5f68e1c28a46648ac60169794aef"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "8d35e672c8ebe701aef87db2bf21d1ec857bb0fd"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "c070c23750e4720fe44b92237b2b55559619e8ac"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "fdc460dce69c6ef2caaafaf9628ee94d07d17625"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "47c0e905bad838b751638c3e7d29637c52c8193f"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "c4560eabcd60cd0f0e211978036519db748360fa"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "c96a3e5a40040ef43e0a51935a368458763d3424"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "6d1a43fbf3f8c90af2bb6c0194495fa5c1f9e10b"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "5df07263f9fd644e8045569b82fce08b50c008a2"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "fbcd823d35677e12d3bc37db531f3f18cdb17535"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "afd66447ba29e35f81e4777676d334aa0f523024"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "48426e0049b01d86b2af3b0cd4c7452a98bbcaaf"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "1120dfb0df6256985e85ca0f46ecf52902e0aa76"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "64dd3f0a22a5625f095666e27b7bddde84843883"
+	},
+	{
+		"bugFixingId": "4224c83d42502f37c781efe4108198b10f9075dd",
+		"bugInducingId": "0d33e877b1642b1bb630415304b8d01de2ce427e"
+	}
+]

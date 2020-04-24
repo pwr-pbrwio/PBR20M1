@@ -5,3 +5,4 @@
 .idea
 /results/
 .temp
+node_modules
