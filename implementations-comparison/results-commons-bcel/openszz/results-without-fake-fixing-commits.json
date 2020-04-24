@@ -1,0 +1,1994 @@
+[
+	{
+		"bugFixingId": "1faf7d9f684f8d12cd87ffa641c472cc5ade610a",
+		"bugFixingTs": "4/14/2020 21:43",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/MethodGen.java",
+		"bugInducingId": "7a28a2d05733714850bd7e51a98fc97c42e47103",
+		"bugInducingTs": "6/21/2016 22:50",
+		"issueType": "Task"
+	},
+	{
+		"bugFixingId": "1d528f6cf7ea74db01a03d724f288dd97b2c3f35",
+		"bugFixingTs": "9/26/2019 2:09",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/DescendingVisitor.java",
+		"bugInducingId": "974c435df5b3bf3658dc340940a6ee7d82fb3919",
+		"bugInducingTs": "9/13/2019 2:47",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "e6c768ec51eadc2662c198937e8ef6da7e4ec8d4",
+		"bugFixingTs": "7/10/2019 14:41",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/ConstantUtf8.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "ebcfa76b2fba1d3f81e1a9988ad8c9a2cb3c0f9c",
+		"bugFixingTs": "7/6/2019 0:59",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/util/LruCacheClassPathRepository.java",
+		"bugInducingId": "c96a3e5a40040ef43e0a51935a368458763d3424",
+		"bugInducingTs": "9/6/2016 8:38",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "ebcfa76b2fba1d3f81e1a9988ad8c9a2cb3c0f9c",
+		"bugFixingTs": "7/6/2019 0:59",
+		"bugFixingfileChanged": "src/test/java/org/apache/bcel/util/LruCacheClassPathRepositoryTestCase.java",
+		"bugInducingId": "c96a3e5a40040ef43e0a51935a368458763d3424",
+		"bugInducingTs": "9/6/2016 8:38",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "e9853a31939c2bdbd15bc321804d7cdc6a4ec995",
+		"bugFixingTs": "7/6/2019 0:45",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/ConstantUtf8.java",
+		"bugInducingId": "45da20f49abafa125ff4f616e8312b89fbd1f139",
+		"bugInducingTs": "2/11/2019 16:26",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugFixingTs": "4/12/2019 15:05",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/Attribute.java",
+		"bugInducingId": "45da20f49abafa125ff4f616e8312b89fbd1f139",
+		"bugInducingTs": "2/11/2019 16:26",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugFixingTs": "4/12/2019 15:05",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/Deprecated.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugFixingTs": "4/12/2019 15:05",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/PMGClass.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugFixingTs": "4/12/2019 15:05",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/Synthetic.java",
+		"bugInducingId": "d47fec240c633b061a3ae9351f8199e8785261b4",
+		"bugInducingTs": "6/1/2016 6:25",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4d89da4f52f6ae26a4917ba79259e8c89c67eb77",
+		"bugFixingTs": "4/12/2019 15:05",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/verifier/structurals/Subroutines.java",
+		"bugInducingId": "efe37ea42940ffbb7f6e10bf596e629a6c03bc87",
+		"bugInducingTs": "8/18/2015 14:32",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "d7292a3d9f2939f785ec74057d255e5df95846bf",
+		"bugFixingTs": "3/20/2019 22:15",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/FieldOrMethod.java",
+		"bugInducingId": "45da20f49abafa125ff4f616e8312b89fbd1f139",
+		"bugInducingTs": "2/11/2019 16:26",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "190dee5fa3b5374f95ae8b3673705802789ed0a7",
+		"bugFixingTs": "2/11/2019 16:11",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/BranchHandle.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "190dee5fa3b5374f95ae8b3673705802789ed0a7",
+		"bugFixingTs": "2/11/2019 16:11",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/InstructionHandle.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "a1e4f67e9d5480de3d725295f562e98f6c45d79e",
+		"bugFixingTs": "7/28/2018 17:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/util/ClassPath.java",
+		"bugInducingId": "7a28a2d05733714850bd7e51a98fc97c42e47103",
+		"bugInducingTs": "6/21/2016 22:50",
+		"issueType": "New Feature"
+	},
+	{
+		"bugFixingId": "a1e4f67e9d5480de3d725295f562e98f6c45d79e",
+		"bugFixingTs": "7/28/2018 17:34",
+		"bugFixingfileChanged": "src/test/java/org/apache/bcel/util/ClassPathTestCase.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "New Feature"
+	},
+	{
+		"bugFixingId": "a2da1049443db9db3e2c06cff58463fe6cddb978",
+		"bugFixingTs": "7/28/2018 7:00",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/util/ClassPath.java",
+		"bugInducingId": "774228b4c6d5e6f8ec239bc9a3d8f09ca7bfa51b",
+		"bugInducingTs": "10/16/2017 22:35",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "bf30b1f2af61a37d8e1215e1af6022ede913dc2d",
+		"bugFixingTs": "7/28/2018 7:00",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/util/ClassPath.java",
+		"bugInducingId": "0d33e877b1642b1bb630415304b8d01de2ce427e",
+		"bugInducingTs": "10/16/2017 22:32",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/ALOAD.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/ANEWARRAY.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/ASTORE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/ArithmeticInstruction.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/ArrayInstruction.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/BIPUSH.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/BranchInstruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/CHECKCAST.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/CPInstruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/ConversionInstruction.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/DCONST.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/DLOAD.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/DSTORE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/FCONST.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/FLOAD.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/FSTORE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/FieldInstruction.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/FieldOrMethod.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/GETFIELD.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/GETSTATIC.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/GOTO.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/GOTO_W.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/GotoInstruction.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/ICONST.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IFEQ.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IFGE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IFGT.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IFLE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IFLT.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IFNE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IFNONNULL.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IFNULL.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IF_ACMPEQ.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IF_ACMPNE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IF_ICMPEQ.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IF_ICMPGE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IF_ICMPGT.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IF_ICMPLE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IF_ICMPLT.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IF_ICMPNE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IINC.java",
+		"bugInducingId": "c96a3e5a40040ef43e0a51935a368458763d3424",
+		"bugInducingTs": "9/6/2016 8:38",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/ILOAD.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/INSTANCEOF.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/INVOKEDYNAMIC.java",
+		"bugInducingId": "c96a3e5a40040ef43e0a51935a368458763d3424",
+		"bugInducingTs": "9/6/2016 8:38",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/INVOKEINTERFACE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/INVOKESPECIAL.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/INVOKESTATIC.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/INVOKEVIRTUAL.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/ISTORE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IfInstruction.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/Instruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/InvokeInstruction.java",
+		"bugInducingId": "c96a3e5a40040ef43e0a51935a368458763d3424",
+		"bugInducingTs": "9/6/2016 8:38",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/JSR.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/JSR_W.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/JsrInstruction.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/LCONST.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/LDC.java",
+		"bugInducingId": "c96a3e5a40040ef43e0a51935a368458763d3424",
+		"bugInducingTs": "9/6/2016 8:38",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/LDC2_W.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/LDC_W.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/LLOAD.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/LOOKUPSWITCH.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/LSTORE.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/LoadInstruction.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/LocalVariableInstruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/MULTIANEWARRAY.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/NEW.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/NEWARRAY.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/PUTFIELD.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/PUTSTATIC.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/RET.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/ReturnInstruction.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/SIPUSH.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/Select.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/StackInstruction.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/StoreInstruction.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "90e94269f7d64684ac7dc3fcbee055eea866d370",
+		"bugFixingTs": "10/14/2017 1:48",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/TABLESWITCH.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "5215032300c4df88e09ffcf48d2ba2fd769211b3",
+		"bugFixingTs": "10/3/2017 19:43",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/StackMap.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "df7a37858bdf7c465d6ba96637558695e42e2fe9",
+		"bugFixingTs": "9/12/2017 18:36",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/Utility.java",
+		"bugInducingId": "d47fec240c633b061a3ae9351f8199e8785261b4",
+		"bugInducingTs": "6/1/2016 6:25",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "df7a37858bdf7c465d6ba96637558695e42e2fe9",
+		"bugFixingTs": "9/12/2017 18:36",
+		"bugFixingfileChanged": "src/test/java/org/apache/bcel/classfile/UtilityTestCase.java",
+		"bugInducingId": "d522432b79044740831a132d8b92e7dab5477444",
+		"bugInducingTs": "6/7/2016 19:28",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "93c12bbb6d22a165a407b6184cdb40545f86c683",
+		"bugFixingTs": "8/30/2017 21:28",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/IINC.java",
+		"bugInducingId": "f5b48cb2b84d0cdcfaa99efda564a827f18bb49a",
+		"bugInducingTs": "6/13/2016 9:59",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "efc4809b7b73febc18cdd8976ff8e9d6d4537ade",
+		"bugFixingTs": "8/30/2017 21:22",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/Attribute.java",
+		"bugInducingId": "7a28a2d05733714850bd7e51a98fc97c42e47103",
+		"bugInducingTs": "6/21/2016 22:50",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "e74df2c0e90e5e4ee92a0d45fcc6f5db5958861a",
+		"bugFixingTs": "5/19/2017 8:41",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/MethodGen.java",
+		"bugInducingId": "7a28a2d05733714850bd7e51a98fc97c42e47103",
+		"bugInducingTs": "6/21/2016 22:50",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "c96a3e5a40040ef43e0a51935a368458763d3424",
+		"bugFixingTs": "9/6/2016 8:38",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/MethodGen.java",
+		"bugInducingId": "7a28a2d05733714850bd7e51a98fc97c42e47103",
+		"bugInducingTs": "6/21/2016 22:50",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "7ceb5a6b8236517d708d7965f4873344c5630969",
+		"bugFixingTs": "7/29/2016 10:10",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/classfile/ConstantPool.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "2f2698fa5739eba1cdc3bdf8299a754fb98ae871",
+		"bugFixingTs": "6/14/2016 19:02",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/Type.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b46a1595c4c8688644549b3cd762819f4ccfac0",
+		"bugFixingTs": "6/10/2016 14:07",
+		"bugFixingfileChanged": "src/main/java/org/apache/bcel/generic/BranchHandle.java",
+		"bugInducingId": "70e89e04d355ec40217cd08c9cdb4d9322a5c460",
+		"bugInducingTs": "8/13/2015 23:58",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "cc50f64aa8598728365f282056035cfc094e7bbd",
+		"bugFixingTs": "6/1/2016 6:46",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/util/InstructionFinder.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "0b85abad6a951191875d8cb2af84a7da804c30c9",
+		"bugFixingTs": "9/12/2015 13:22",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantMethodHandle.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "0b85abad6a951191875d8cb2af84a7da804c30c9",
+		"bugFixingTs": "9/12/2015 13:22",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantMethodType.java",
+		"bugInducingId": "6c3321ea4b1dd23964473221f376736c0e80c9b1",
+		"bugInducingTs": "8/14/2015 0:16",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4931b2d3cab1cb040e6e200060c4195673a35488",
+		"bugFixingTs": "8/28/2015 0:30",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/BranchInstruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "06d969a8fe228de6a637e832743cf6df518fceb0",
+		"bugFixingTs": "8/28/2015 0:27",
+		"bugFixingfileChanged": "src/examples/ClassDumper.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "bf300c3e8f03bf9aa1ff66195d79cafd8a626cb0",
+		"bugFixingTs": "8/24/2015 21:46",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/util/BCELifier.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "c4560eabcd60cd0f0e211978036519db748360fa",
+		"bugFixingTs": "8/23/2015 18:52",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/verifier/structurals/ControlFlowGraph.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "c4560eabcd60cd0f0e211978036519db748360fa",
+		"bugFixingTs": "8/23/2015 18:52",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/verifier/structurals/Subroutines.java",
+		"bugInducingId": "8b641fa744d629533891f1c01562e62020a39994",
+		"bugInducingTs": "8/20/2015 17:04",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "f14429b6341be67b3581c1cbb815efc90c7d30f0",
+		"bugFixingTs": "8/21/2015 15:02",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/Attribute.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "f14429b6341be67b3581c1cbb815efc90c7d30f0",
+		"bugFixingTs": "8/21/2015 15:02",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/DescendingVisitor.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "f14429b6341be67b3581c1cbb815efc90c7d30f0",
+		"bugFixingTs": "8/21/2015 15:02",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/EmptyVisitor.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "c2f5b0afe28af49f3b0360661545d52df70eac7e",
+		"bugFixingTs": "8/20/2015 14:19",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/BranchInstruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "c2f5b0afe28af49f3b0360661545d52df70eac7e",
+		"bugFixingTs": "8/20/2015 14:19",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/GOTO.java",
+		"bugInducingId": "6c3321ea4b1dd23964473221f376736c0e80c9b1",
+		"bugInducingTs": "8/14/2015 0:16",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "03946285e4d8d812b3485e036de69226f7fd4345",
+		"bugFixingTs": "8/13/2015 1:53",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/AnnotationElementValueGen.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "03946285e4d8d812b3485e036de69226f7fd4345",
+		"bugFixingTs": "8/13/2015 1:53",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/ClassElementValueGen.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "03946285e4d8d812b3485e036de69226f7fd4345",
+		"bugFixingTs": "8/13/2015 1:53",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/ElementValueGen.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "03946285e4d8d812b3485e036de69226f7fd4345",
+		"bugFixingTs": "8/13/2015 1:53",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/EnumElementValueGen.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "03946285e4d8d812b3485e036de69226f7fd4345",
+		"bugFixingTs": "8/13/2015 1:53",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/SimpleElementValueGen.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4227c5cf0ad132e1238ea556718d9bd6a3a592a2",
+		"bugFixingTs": "8/13/2015 1:30",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/ConstantPoolGen.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4227c5cf0ad132e1238ea556718d9bd6a3a592a2",
+		"bugFixingTs": "8/13/2015 1:30",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/FieldInstruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4227c5cf0ad132e1238ea556718d9bd6a3a592a2",
+		"bugFixingTs": "8/13/2015 1:30",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/FieldOrMethod.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4227c5cf0ad132e1238ea556718d9bd6a3a592a2",
+		"bugFixingTs": "8/13/2015 1:30",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/INVOKEDYNAMIC.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4227c5cf0ad132e1238ea556718d9bd6a3a592a2",
+		"bugFixingTs": "8/13/2015 1:30",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/INVOKEINTERFACE.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4227c5cf0ad132e1238ea556718d9bd6a3a592a2",
+		"bugFixingTs": "8/13/2015 1:30",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/InvokeInstruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4227c5cf0ad132e1238ea556718d9bd6a3a592a2",
+		"bugFixingTs": "8/13/2015 1:30",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/LDC.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4227c5cf0ad132e1238ea556718d9bd6a3a592a2",
+		"bugFixingTs": "8/13/2015 1:30",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/LDC2_W.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4227c5cf0ad132e1238ea556718d9bd6a3a592a2",
+		"bugFixingTs": "8/13/2015 1:30",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/MULTIANEWARRAY.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4227c5cf0ad132e1238ea556718d9bd6a3a592a2",
+		"bugFixingTs": "8/13/2015 1:30",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/NameSignatureInstruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "8e29a71464b8dd555a9a9bb428e2812d63a8e089",
+		"bugFixingTs": "8/13/2015 1:19",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/BasicType.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/BranchHandle.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/GOTO.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/GOTO_W.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IFEQ.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IFGE.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IFGT.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IFLE.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IFLT.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IFNE.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IFNONNULL.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IFNULL.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IF_ACMPEQ.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IF_ACMPNE.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IF_ICMPEQ.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IF_ICMPGE.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IF_ICMPGT.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IF_ICMPLE.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IF_ICMPLT.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/IF_ICMPNE.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/InstructionComparator.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/InstructionList.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/JSR.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/JSR_W.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/JsrInstruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "4b75fdd1f345616a2acc62393d626e5094ca2d44",
+		"bugFixingTs": "8/13/2015 0:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/Select.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/ExceptionConstants.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/ANEWARRAY.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/ArrayInstruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/CHECKCAST.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/GETFIELD.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/GETSTATIC.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/INSTANCEOF.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/INVOKEDYNAMIC.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/INVOKEINTERFACE.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/INVOKESPECIAL.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/INVOKESTATIC.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/INVOKEVIRTUAL.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/LDC.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/MULTIANEWARRAY.java",
+		"bugInducingId": "eb82f8b4cb3e0aaa2a82a3f1a66535cbaec59a9a",
+		"bugInducingTs": "8/10/2015 16:55",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/NEW.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/PUTFIELD.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "14fdded02c630bb89b9d9ff3d7168da3b54f8617",
+		"bugFixingTs": "8/12/2015 20:34",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/PUTSTATIC.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "9325aac806818a7993d42e82dc57814d8725f014",
+		"bugFixingTs": "8/12/2015 19:55",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/Instruction.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "9325aac806818a7993d42e82dc57814d8725f014",
+		"bugFixingTs": "8/12/2015 19:55",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/InstructionConstants.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "9325aac806818a7993d42e82dc57814d8725f014",
+		"bugFixingTs": "8/12/2015 19:55",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/PUSH.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "9325aac806818a7993d42e82dc57814d8725f014",
+		"bugFixingTs": "8/12/2015 19:55",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/util/BCELFactory.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "cdb2699fdcd74fd4698aa5c66a35c6705e8ced2c",
+		"bugFixingTs": "8/12/2015 17:55",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/Annotations.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "cdb2699fdcd74fd4698aa5c66a35c6705e8ced2c",
+		"bugFixingTs": "8/12/2015 17:55",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/BootstrapMethod.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "cdb2699fdcd74fd4698aa5c66a35c6705e8ced2c",
+		"bugFixingTs": "8/12/2015 17:55",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantPool.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "cdb2699fdcd74fd4698aa5c66a35c6705e8ced2c",
+		"bugFixingTs": "8/12/2015 17:55",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/JavaClass.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "cdb2699fdcd74fd4698aa5c66a35c6705e8ced2c",
+		"bugFixingTs": "8/12/2015 17:55",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/ConstantPoolGen.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "84120b06fd5a3edab73eb5eda6aab6595d7eacd7",
+		"bugFixingTs": "8/12/2015 17:35",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/AnnotationDefault.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/Constants.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/AnnotationEntry.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/CodeException.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/LocalVariable.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/util/AttributeHTML.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/util/Class2HTML.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/util/CodeHTML.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/util/ConstantHTML.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/util/MethodHTML.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/verifier/statics/Pass2Verifier.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/test/java/org/apache/commons/bcel6/verifier/tests/TestArrayAccess02Creator.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/test/java/org/apache/commons/bcel6/verifier/tests/TestArrayAccess03Creator.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/test/java/org/apache/commons/bcel6/verifier/tests/TestArrayAccess04Creator.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/test/java/org/apache/commons/bcel6/verifier/tests/TestReturn01Creator.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "db84d4027bf3c4e2ea9f3c011e10fee7866235a4",
+		"bugFixingTs": "8/12/2015 17:29",
+		"bugFixingfileChanged": "src/test/java/org/apache/commons/bcel6/verifier/tests/TestReturn03Creator.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "0af0fb3158488b64b4b02a794a757891bb636de9",
+		"bugFixingTs": "8/12/2015 16:59",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/InstructionFactory.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "0af0fb3158488b64b4b02a794a757891bb636de9",
+		"bugFixingTs": "8/12/2015 16:59",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/generic/PUSH.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/Attribute.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantNameAndType.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantPool.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantString.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantValue.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/Deprecated.java",
+		"bugInducingId": "eb82f8b4cb3e0aaa2a82a3f1a66535cbaec59a9a",
+		"bugInducingTs": "8/10/2015 16:55",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/EnclosingMethod.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ExceptionTable.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/Field.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/FieldOrMethod.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/InnerClass.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/InnerClasses.java",
+		"bugInducingId": "eb82f8b4cb3e0aaa2a82a3f1a66535cbaec59a9a",
+		"bugInducingTs": "8/10/2015 16:55",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/JavaClass.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/LineNumber.java",
+		"bugInducingId": "eb82f8b4cb3e0aaa2a82a3f1a66535cbaec59a9a",
+		"bugInducingTs": "8/10/2015 16:55",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/LineNumberTable.java",
+		"bugInducingId": "eb82f8b4cb3e0aaa2a82a3f1a66535cbaec59a9a",
+		"bugInducingTs": "8/10/2015 16:55",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/LocalVariable.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/LocalVariableTable.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/LocalVariableTypeTable.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/MethodParameter.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/MethodParameters.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/PMGClass.java",
+		"bugInducingId": "eb82f8b4cb3e0aaa2a82a3f1a66535cbaec59a9a",
+		"bugInducingTs": "8/10/2015 16:55",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ParameterAnnotations.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/Signature.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/SimpleElementValue.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/SourceFile.java",
+		"bugInducingId": "eb82f8b4cb3e0aaa2a82a3f1a66535cbaec59a9a",
+		"bugInducingTs": "8/10/2015 16:55",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/StackMap.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/StackMapEntry.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/StackMapTable.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/StackMapTableEntry.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/StackMapType.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/Synthetic.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "bb47ba1914c0c0794b7665ef2113801bda45ee37",
+		"bugFixingTs": "8/12/2015 16:50",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/Unknown.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "da5f54665dc13c7ccef9b95d7fe58d651248eefd",
+		"bugFixingTs": "8/12/2015 15:58",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/Attribute.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "da5f54665dc13c7ccef9b95d7fe58d651248eefd",
+		"bugFixingTs": "8/12/2015 15:58",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/Constant.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "da5f54665dc13c7ccef9b95d7fe58d651248eefd",
+		"bugFixingTs": "8/12/2015 15:58",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantCP.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "91481052f8a277f2fa76f80e05eccc0f53c9a08e",
+		"bugFixingTs": "8/12/2015 15:35",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/CodeException.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "91481052f8a277f2fa76f80e05eccc0f53c9a08e",
+		"bugFixingTs": "8/12/2015 15:35",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantClass.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "91481052f8a277f2fa76f80e05eccc0f53c9a08e",
+		"bugFixingTs": "8/12/2015 15:35",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantDouble.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "91481052f8a277f2fa76f80e05eccc0f53c9a08e",
+		"bugFixingTs": "8/12/2015 15:35",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantFloat.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "91481052f8a277f2fa76f80e05eccc0f53c9a08e",
+		"bugFixingTs": "8/12/2015 15:35",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantInteger.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "91481052f8a277f2fa76f80e05eccc0f53c9a08e",
+		"bugFixingTs": "8/12/2015 15:35",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantLong.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "91481052f8a277f2fa76f80e05eccc0f53c9a08e",
+		"bugFixingTs": "8/12/2015 15:35",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantMethodHandle.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "91481052f8a277f2fa76f80e05eccc0f53c9a08e",
+		"bugFixingTs": "8/12/2015 15:35",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/ConstantMethodType.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "cb5fbb3c9a15bd6b6833ebcfdbc4f35c039f95ee",
+		"bugFixingTs": "8/12/2015 14:51",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/classfile/AccessFlags.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "4a2fba25228536501c202754c9cb7a442c1e496d",
+		"bugFixingTs": "8/12/2015 14:46",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/ExceptionConstants.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "0ea7ebe90701a08f8417816cb3715de011f01420",
+		"bugFixingTs": "8/12/2015 12:54",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/util/ClassLoader.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "0ea7ebe90701a08f8417816cb3715de011f01420",
+		"bugFixingTs": "8/12/2015 12:54",
+		"bugFixingfileChanged": "src/main/java/org/apache/commons/bcel6/verifier/NativeVerifier.java",
+		"bugInducingId": "f3f9e9b02c101973da0ed1a51e5dd60b83e5bc65",
+		"bugInducingTs": "8/9/2015 23:21",
+		"issueType": "Bug"
+	}
+]

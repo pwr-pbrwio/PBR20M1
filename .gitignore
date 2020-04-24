@@ -3,3 +3,6 @@
 /Scripts/issues
 /Scripts/repos
 .idea
+/results/
+.temp
+node_modules
