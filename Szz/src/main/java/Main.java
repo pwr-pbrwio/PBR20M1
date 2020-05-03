@@ -29,6 +29,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import parser.GitParserThread;
 import util.Configuration;
+import java.time.format.DateTimeFormatter;
+import java.time.LocalDateTime;
 
 /**
  * @author Oscar Svensson
@@ -38,6 +40,9 @@ public class Main {
   private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
   public static void main(String... args) {
+    DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
+    LocalDateTime startTime = LocalDateTime.now();
+    logger.info(String.format("Started at %s", dtf.format(startTime)));
     Configuration conf = Configuration.init(logger, args);
 
     List<String> issue_paths =
@@ -66,6 +71,7 @@ public class Main {
     }
     logger.info("Merging files...");
     SimplePartition.mergeFiles(resPaths, conf.getResultPath());
-    logger.info("Done.");
+    LocalDateTime endTime = LocalDateTime.now();
+    logger.info(String.format("Done at %s",  dtf.format(endTime)));
   }
 }

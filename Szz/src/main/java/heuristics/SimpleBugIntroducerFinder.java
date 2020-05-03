@@ -30,6 +30,7 @@ import graph.FileAnnotationGraph;
 import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import org.eclipse.jgit.api.errors.GitAPIException;
@@ -177,6 +178,7 @@ public class SimpleBugIntroducerFinder implements BugIntroducerFinder {
      * Now check if any of the potential bugintroducing commits are bugintroducers for any other fix commit, aka weak suspects.
      * This check should be made smarter...
      */
+    System.out.println("Check potential bug introducers");
     for (Map.Entry<String, List<String>> entry : bucketIntroducers.entrySet()) {
       List<String> introducers = entry.getValue();
       List<String> issues = bucketIssues.get(entry.getKey());
@@ -209,6 +211,7 @@ public class SimpleBugIntroducerFinder implements BugIntroducerFinder {
     /*
      * Now check for partial fixes. If a commit is flagged as a fix, it is a candidate to be a partial fix.
      */
+    System.out.println("Find partial fixes");
     for (Map.Entry<String, List<String>> suspects : partialIntroducers.entrySet()) {
       List<String> introducers = suspects.getValue();
       List<String> issues = partialIssues.get(suspects.getKey());

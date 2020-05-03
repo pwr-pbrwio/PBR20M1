@@ -8,7 +8,7 @@ from unleashed.find_bug_fixes import find_bug_fixes
 
 from pbr.getFirstSha import getFirstSha
 
-commandFormat = r'java -jar "{file}/unleashed/szz_find_bug_introducers.jar" -i ".temp/issue_list.json" -r "{repoPath}"'
+commandFormat = r'java -jar "{file}/unleashed/szz.jar" -i ".temp/issue_list.json" -r "{repoPath}" -d=3'
 
 if __name__ == "__main__":
   parser = argparse.ArgumentParser(description="""Convert a git log output to json.""")
