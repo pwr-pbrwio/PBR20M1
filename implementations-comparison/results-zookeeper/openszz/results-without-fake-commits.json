@@ -1,0 +1,3578 @@
+[
+	{
+		"bugFixingId": "391cb4aa6b54e19a028215e1340232a114c23ed3",
+		"bugFixingTs": "2020-05-04T14:17:33.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/common/FileChangeWatcherTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Test"
+	},
+	{
+		"bugFixingId": "a548253408384d9e943b151c942d795017dca70c",
+		"bugFixingTs": "2020-04-07T09:07:50.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/FastLeaderElection.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "7e6386aa9b404dd236b6bdc3b5c714116f3986db",
+		"bugFixingTs": "2020-04-01T17:02:20.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ZooKeeperMain.java",
+		"bugInducingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugInducingTs": "2019-10-10T14:37:45.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "1ff1b779b70dd794c9e45f35f8ca305229df10e0",
+		"bugFixingTs": "2020-03-26T22:20:51.000+0100",
+		"bugFixingfileChanged": "zookeeper-it/src/test/bench/org/apache/zookeeper/server/watch/WatchBench.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "1ff1b779b70dd794c9e45f35f8ca305229df10e0",
+		"bugFixingTs": "2020-03-26T22:20:51.000+0100",
+		"bugFixingfileChanged": "zookeeper-it/src/test/java/org/apache/zookeeper/test/system/BaseSysTest.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "b4a3238d1d0cebe1c97ed23427bbcc69c8477c8a",
+		"bugFixingTs": "2020-03-26T22:19:08.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ZooKeeperMain.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "New Feature"
+	},
+	{
+		"bugFixingId": "6c7a273bc1c553be34dc7b9e658c6c16b8a023ef",
+		"bugFixingTs": "2020-03-26T22:12:18.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/FinalRequestProcessor.java",
+		"bugInducingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugInducingTs": "2019-10-10T14:37:45.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "e87bad6774e7269ef21a156aff9dad089ef54794",
+		"bugFixingTs": "2020-03-25T03:38:46.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/FinalRequestProcessor.java",
+		"bugInducingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugInducingTs": "2019-10-10T14:37:45.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "4d8caf9851f63073145996fd4a535278014d01be",
+		"bugFixingTs": "2020-03-23T16:20:05.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumCnxManager.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "8148f966947d3ecf3db0b756d93c9ffa88174af9",
+		"bugFixingTs": "2020-03-20T11:00:13.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/FileChangeWatcher.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "5a2332058deba04313ad37fa05cbb1515c83b8e6",
+		"bugFixingTs": "2020-03-01T06:42:47.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/jmx/ManagedUtil.java",
+		"bugInducingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugInducingTs": "2019-10-10T14:37:45.000+0200",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "b2db3918cb2b681e0446cfe3247730deacc0567b",
+		"bugFixingTs": "2020-02-24T06:14:46.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/version/util/VerGen.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Task"
+	},
+	{
+		"bugFixingId": "3aa922c5737c9ef0879f290181cb281261c965e0",
+		"bugFixingTs": "2020-02-16T10:25:14.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumCnxManager.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "3aa922c5737c9ef0879f290181cb281261c965e0",
+		"bugFixingTs": "2020-02-16T10:25:14.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumPeer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "3aa922c5737c9ef0879f290181cb281261c965e0",
+		"bugFixingTs": "2020-02-16T10:25:14.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumPeerConfig.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "ae1a52c75b19e15db5913ac34d34b1c6fbf75e36",
+		"bugFixingTs": "2020-02-12T15:52:42.000+0100",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JBuffer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "ed251d43733996d72b9c57b7ba9822f49d25b4e6",
+		"bugFixingTs": "2020-02-12T15:48:01.000+0100",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/Utils.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "ed251d43733996d72b9c57b7ba9822f49d25b4e6",
+		"bugFixingTs": "2020-02-12T15:48:01.000+0100",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JBuffer.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "6763f73cb64d87145e8e642d9e4fcc1e0d509216",
+		"bugFixingTs": "2020-02-04T10:39:02.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/auth/SaslQuorumAuthLearner.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "68e1f7d4c54429caa74441c7444ef1fe0f75867c",
+		"bugFixingTs": "2020-02-03T04:30:41.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/Learner.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "7c1251dbcf6a314466024f71ae5757bde34bb3fd",
+		"bugFixingTs": "2020-01-25T18:48:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/Learner.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b4c5a7fdd0f97aa5a9bf18a345b1cee5b0da967a",
+		"bugFixingTs": "2020-01-23T13:43:39.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/MultipleAddresses.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "ee69a5565215bb95fe10d88f52dba80a7a7fb929",
+		"bugFixingTs": "2020-01-21T18:14:37.000+0100",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/ZNodeName.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "ee69a5565215bb95fe10d88f52dba80a7a7fb929",
+		"bugFixingTs": "2020-01-21T18:14:37.000+0100",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/test/java/org/apache/zookeeper/recipes/lock/ZNodeNameTest.java",
+		"bugInducingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugInducingTs": "2019-10-10T14:37:45.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "dcef1a6f33d8120a93f011da1870a503aafb0312",
+		"bugFixingTs": "2020-01-20T09:06:59.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/ZKConfig.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "f530ab91f1986027223bff72f01f965a24d6fd53",
+		"bugFixingTs": "2020-01-16T21:46:10.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/metric/AvgMinMaxCounterSet.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "570285af427fd69471a682a071a47483f8f7ddf8",
+		"bugFixingTs": "2020-01-09T22:51:51.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/cli/LsCommand.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/cli/LsCommand.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/cli/SetAclCommand.java",
+		"bugInducingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugInducingTs": "2019-10-10T14:37:45.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/cli/SetQuotaCommand.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/cli/SyncCommand.java",
+		"bugInducingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugInducingTs": "2019-10-10T14:37:45.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/GetAllChildrenNumberTest.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/GetEphemeralsTest.java",
+		"bugInducingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugInducingTs": "2019-10-10T14:37:45.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/CreateContainerTest.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/CreateTTLTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/CloseSessionTxnTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/QuorumPeerMainTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ClientTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/FollowerResyncConcurrencyTest.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ObserverMasterTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/QuorumTest.java",
+		"bugInducingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugInducingTs": "2019-10-10T14:37:45.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d784e4dc8e042bd622500f861163bb315fa856fe",
+		"bugFixingTs": "2019-12-28T16:17:54.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/SessionTest.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "2805e8982c0e8964e5f8d86f4b01a293d75d4aed",
+		"bugFixingTs": "2019-12-27T22:33:26.000+0100",
+		"bugFixingfileChanged": "zookeeper-contrib/zookeeper-contrib-loggraph/src/main/java/org/apache/zookeeper/graph/TxnLogSource.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "2805e8982c0e8964e5f8d86f4b01a293d75d4aed",
+		"bugFixingTs": "2019-12-27T22:33:26.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/DataNode.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "2805e8982c0e8964e5f8d86f4b01a293d75d4aed",
+		"bugFixingTs": "2019-12-27T22:33:26.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/DigestCalculator.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "2805e8982c0e8964e5f8d86f4b01a293d75d4aed",
+		"bugFixingTs": "2019-12-27T22:33:26.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/LogFormatter.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "2805e8982c0e8964e5f8d86f4b01a293d75d4aed",
+		"bugFixingTs": "2019-12-27T22:33:26.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NodeHashMap.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "2805e8982c0e8964e5f8d86f4b01a293d75d4aed",
+		"bugFixingTs": "2019-12-27T22:33:26.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NodeHashMapImpl.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "7c9a1e4e9ae9e3a17c4766b34787e39ca1e42794",
+		"bugFixingTs": "2019-12-19T09:51:41.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/audit/AuditHelper.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "20daae7d5fa934629e7825ed72e66ad76a94d6aa",
+		"bugFixingTs": "2019-12-16T22:09:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/NettyServerCnxnFactoryTest.java",
+		"bugInducingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugInducingTs": "2019-10-10T14:37:45.000+0200",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "a5d67c8ffcc18289aa89c892d948ad7c75a317b4",
+		"bugFixingTs": "2019-12-13T08:51:38.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "a5d67c8ffcc18289aa89c892d948ad7c75a317b4",
+		"bugFixingTs": "2019-12-13T08:51:38.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/EmptiedSnapshotRecoveryTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "b0556c20a4331de29476faf845e8fca18e8820fe",
+		"bugFixingTs": "2019-12-03T19:12:30.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/FileSnap.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "b0556c20a4331de29476faf845e8fca18e8820fe",
+		"bugFixingTs": "2019-12-03T19:12:30.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/SnapStream.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "b0556c20a4331de29476faf845e8fca18e8820fe",
+		"bugFixingTs": "2019-12-03T19:12:30.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/persistence/SnapStreamTest.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "01e198aec9ceae52f160ddcf2e45cd234823e505",
+		"bugFixingTs": "2019-12-03T10:01:22.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/admin/CommandsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "8e8905069f4bff670c0492fe9e28ced0f86bca00",
+		"bugFixingTs": "2019-11-28T12:24:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/Version.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "8e8905069f4bff670c0492fe9e28ced0f86bca00",
+		"bugFixingTs": "2019-11-28T12:24:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/LogFormatter.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "8e8905069f4bff670c0492fe9e28ced0f86bca00",
+		"bugFixingTs": "2019-11-28T12:24:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/PurgeTxnLog.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "8e8905069f4bff670c0492fe9e28ced0f86bca00",
+		"bugFixingTs": "2019-11-28T12:24:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/RequestThrottler.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "8e8905069f4bff670c0492fe9e28ced0f86bca00",
+		"bugFixingTs": "2019-11-28T12:24:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/SnapshotFormatter.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "8e8905069f4bff670c0492fe9e28ced0f86bca00",
+		"bugFixingTs": "2019-11-28T12:24:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/TraceFormatter.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "8e8905069f4bff670c0492fe9e28ced0f86bca00",
+		"bugFixingTs": "2019-11-28T12:24:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ZooKeeperServerMain.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "8e8905069f4bff670c0492fe9e28ced0f86bca00",
+		"bugFixingTs": "2019-11-28T12:24:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/TxnLogToolkit.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "8e8905069f4bff670c0492fe9e28ced0f86bca00",
+		"bugFixingTs": "2019-11-28T12:24:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/FollowerZooKeeperServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "8e8905069f4bff670c0492fe9e28ced0f86bca00",
+		"bugFixingTs": "2019-11-28T12:24:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumPeerMain.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "8e8905069f4bff670c0492fe9e28ced0f86bca00",
+		"bugFixingTs": "2019-11-28T12:24:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/util/LogChopper.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "ae68c7d50e4057ef3f9b99ac0cd0200a8bd5f235",
+		"bugFixingTs": "2019-11-21T05:58:30.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/FinalRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "ae68c7d50e4057ef3f9b99ac0cd0200a8bd5f235",
+		"bugFixingTs": "2019-11-21T05:58:30.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "ae68c7d50e4057ef3f9b99ac0cd0200a8bd5f235",
+		"bugFixingTs": "2019-11-21T05:58:30.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/WatchLeakTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "945167c338d4a26c18bdaf49fb9000186a5f7025",
+		"bugFixingTs": "2019-11-18T09:05:38.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/DumbWatcher.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "945167c338d4a26c18bdaf49fb9000186a5f7025",
+		"bugFixingTs": "2019-11-18T09:05:38.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "945167c338d4a26c18bdaf49fb9000186a5f7025",
+		"bugFixingTs": "2019-11-18T09:05:38.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ResponseCache.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "945167c338d4a26c18bdaf49fb9000186a5f7025",
+		"bugFixingTs": "2019-11-18T09:05:38.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ServerCnxn.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "945167c338d4a26c18bdaf49fb9000186a5f7025",
+		"bugFixingTs": "2019-11-18T09:05:38.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ServerMetrics.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "945167c338d4a26c18bdaf49fb9000186a5f7025",
+		"bugFixingTs": "2019-11-18T09:05:38.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/MockServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "945167c338d4a26c18bdaf49fb9000186a5f7025",
+		"bugFixingTs": "2019-11-18T09:05:38.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ResponseCacheTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "aeb9f78c454c59d5d258f0a99bb5e57ed2cbaebe",
+		"bugFixingTs": "2019-11-14T16:44:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/ZKTestCase.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "aeb9f78c454c59d5d258f0a99bb5e57ed2cbaebe",
+		"bugFixingTs": "2019-11-14T16:44:36.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ClientBase.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "cd465947949f64d4258184d7b493a7e8747c6262",
+		"bugFixingTs": "2019-11-13T20:41:47.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumCnxManager.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "ef3649f599b4213a918c7a84cfe663d6cb1fa26e",
+		"bugFixingTs": "2019-11-04T02:01:42.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/client/ZKClientConfig.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-election/src/test/java/org/apache/zookeeper/recipes/leader/LeaderElectionSupportTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/ProtocolSupport.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/WriteLock.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/ZNodeName.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-queue/src/main/java/org/apache/zookeeper/recipes/queue/DistributedQueue.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-queue/src/test/java/org/apache/zookeeper/recipes/queue/DistributedQueueTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocket.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/Login.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/SaslClientCallbackHandler.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/client/ZooKeeperSaslClient.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/AtomicFileOutputStream.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/FileChangeWatcher.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/NettyUtils.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/SSLContextAndOptions.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/ZKConfig.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/jmx/MBeanRegistry.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/BlueThrottle.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ConnectionBean.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ContainerManager.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NIOServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NIOServerCnxnFactory.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/PrepRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ReferenceCountedACLCache.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/SessionTrackerImpl.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/SyncRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ZKDatabase.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ZooKeeperServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ZooTrace.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/admin/JettyAdminServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/auth/ProviderRegistry.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/auth/SaslServerCallbackHandler.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/FileSnap.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/FileTxnSnapLog.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/SnapStream.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/AuthFastLeaderElection.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/FastLeaderElection.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/Follower.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/FollowerRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/Leader.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/LeaderRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/LeaderSessionTracker.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/Learner.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/LearnerHandler.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/LearnerHandlerBean.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/LearnerMaster.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/Observer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/ObserverZooKeeperServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumPeerMain.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumZooKeeperServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/ReadOnlyRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/UnifiedServerSocket.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/UpgradeableSessionTracker.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/auth/SaslQuorumAuthLearner.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/auth/SaslQuorumAuthServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/flexible/QuorumHierarchical.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/watch/WatcherCleaner.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/util/SecurityUtils.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/JUnit4ZKTestRunner.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/PortAssignment.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/RemoveWatchesTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/ZKTestCase.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/CRCTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/DeserializationPerfTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/InvalidSnapshotTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/ZooKeeperServerStartupTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/admin/JettyAdminServerTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/CnxManagerTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/CommitProcessorConcurrencyTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/LearnerMetricsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/QuorumPeerTestBase.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/SessionUpgradeQuorumTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/StandaloneDisabledTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/UnifiedServerSocketModeDetectionTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/util/PortForwarder.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ACLTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/AsyncHammerTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/AsyncOpsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/BufferSizeTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ChrootAsyncTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ChrootClientTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ClientHammerTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ClientTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/DuplicateLocalSessionUpgradeTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/EmptiedSnapshotRecoveryTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/FLENewEpochTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/FLERestartTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/FLETest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/FLEZeroWeightTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/FourLetterWordsQuorumTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/FourLetterWordsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/FourLetterWordsWhiteListTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/HierarchicalQuorumTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/IntegrityCheck.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/JMXEnv.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/KeyAuthClientTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/LeaderSessionTrackerTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/LoadFromLogNoServerTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/LoadFromLogTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/LocalSessionRequestTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/LocalSessionsOnlyTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/NIOConnectionFactoryFdLeakTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/OSMXBeanTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ObserverMasterTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/QuorumBase.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/QuorumUtil.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/RecoveryTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ServerCnxnTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/SessionTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/SessionUpgradeTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/SyncCallTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "11c07921c15e2fb7692375327b53f26a583b77ca",
+		"bugFixingTs": "2019-10-10T14:37:45.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ZkDatabaseCorruptionTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "4951a090d7c946f57ac5ab09b5d48a5d7831001d",
+		"bugFixingTs": "2019-10-09T16:49:02.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/SessionUpgradeQuorumTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "f4c7b698bd239bcd15ee380d2ee38814dba432cd",
+		"bugFixingTs": "2019-10-09T16:38:44.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ReferenceCountedACLCache.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "efb2c56d3ab630ef571ee2abcab6f18e08c64c79",
+		"bugFixingTs": "2019-09-26T14:16:50.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/SnapStream.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "4279758ead655aff34cdff21c9f2c71d66030d14",
+		"bugFixingTs": "2019-09-26T08:55:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/BinaryInputArchive.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "93dca3c2547c56cc83d94a59fe4c279ea7e77716",
+		"bugFixingTs": "2019-09-24T10:33:40.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/LearnerMetricsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "a179caa668882d6129ebb000ee60455de749d34f",
+		"bugFixingTs": "2019-09-20T10:06:43.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/LogFormatter.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "a179caa668882d6129ebb000ee60455de749d34f",
+		"bugFixingTs": "2019-09-20T10:06:43.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/TraceFormatter.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "a179caa668882d6129ebb000ee60455de749d34f",
+		"bugFixingTs": "2019-09-20T10:06:43.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/TxnLogToolkit.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "a179caa668882d6129ebb000ee60455de749d34f",
+		"bugFixingTs": "2019-09-20T10:06:43.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/LocalSessionRequestTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "2c1034f8fe4e6e437f7c71478153f41180970542",
+		"bugFixingTs": "2019-09-20T10:02:12.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/SessionTrackerImpl.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "7b8b37617bd86989f94510acac32e7fa94058a6b",
+		"bugFixingTs": "2019-09-18T11:20:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/CustomHostProviderTest.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "f01d01ce3ba86baf9bd623f91d97a560703260e4",
+		"bugFixingTs": "2019-09-10T15:21:05.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/DataTree.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Test"
+	},
+	{
+		"bugFixingId": "dd96bec98db2b747958f9bcd0ea9f64d43eac17e",
+		"bugFixingTs": "2019-09-10T04:26:38.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/FinalRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "1f1211653589c98e259d043affc00c90a4c54eb7",
+		"bugFixingTs": "2019-09-10T00:27:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ZKDatabase.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "eecd9e7ce046083bd40cd6134bdb2b405d01fe67",
+		"bugFixingTs": "2019-09-05T23:12:50.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/BlueThrottle.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "47385c75e0e0d0a48e71122df989effd55f0fe59",
+		"bugFixingTs": "2019-09-05T22:59:14.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/AsyncCallback.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-election/src/main/java/org/apache/zookeeper/recipes/leader/LeaderElectionAware.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-election/src/main/java/org/apache/zookeeper/recipes/leader/LeaderElectionSupport.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-election/src/main/java/org/apache/zookeeper/recipes/leader/LeaderOffer.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-election/src/test/java/org/apache/zookeeper/recipes/leader/LeaderElectionSupportTest.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/LockListener.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/ProtocolSupport.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/WriteLock.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/ZNodeName.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/ZooKeeperOperation.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/test/java/org/apache/zookeeper/recipes/lock/WriteLockTest.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/test/java/org/apache/zookeeper/recipes/lock/ZNodeNameTest.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-queue/src/main/java/org/apache/zookeeper/recipes/queue/DistributedQueue.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8d5d9c1c163f3be4f6ec7d2eb520d37d9352c73",
+		"bugFixingTs": "2019-08-27T09:23:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-queue/src/test/java/org/apache/zookeeper/recipes/queue/DistributedQueueTest.java",
+		"bugInducingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugInducingTs": "2019-08-17T17:13:15.000+0200",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-it/src/test/java/org/apache/zookeeper/test/system/GenerateLoad.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-it/src/test/java/org/apache/zookeeper/test/system/InstanceContainer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-it/src/test/java/org/apache/zookeeper/test/system/InstanceManager.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-it/src/test/java/org/apache/zookeeper/test/system/SimpleClient.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-it/src/test/java/org/apache/zookeeper/test/system/SimpleSysTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-queue/src/test/java/org/apache/zookeeper/recipes/queue/DistributedQueueTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/AsyncCallback.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocket.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNetty.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientWatchManager.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/CreateMode.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/DigestWatcher.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/Environment.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/JLineZNodeCompleter.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/KeeperException.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/Login.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/MultiOperationRecord.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/MultiResponse.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/Op.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/OpResult.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/Quotas.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/SaslClientCallbackHandler.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/SaslServerPrincipal.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ServerAdminClient.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/Shell.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fe940cdd8fb23ba09684cefb73233d570f4a20fa",
+		"bugFixingTs": "2019-08-17T17:13:15.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/StatsTrack.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "04cc5cae1e7d4b007490e68109a676b88ce790a3",
+		"bugFixingTs": "2019-08-09T16:15:20.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/PathTrie.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "9fa18ab0e1ce07b3cc61e8758e27d393253b81fb",
+		"bugFixingTs": "2019-08-06T17:11:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/FinalRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "9fa18ab0e1ce07b3cc61e8758e27d393253b81fb",
+		"bugFixingTs": "2019-08-06T17:11:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/Follower.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "9fa18ab0e1ce07b3cc61e8758e27d393253b81fb",
+		"bugFixingTs": "2019-08-06T17:11:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/ZKTestCase.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "9fa18ab0e1ce07b3cc61e8758e27d393253b81fb",
+		"bugFixingTs": "2019-08-06T17:11:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/LearnerMetricsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "13b9125927233fd5f2378d99f403bca6d35d6145",
+		"bugFixingTs": "2019-08-06T12:57:21.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/SnapshotFormatter.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "New Feature"
+	},
+	{
+		"bugFixingId": "6692d7a5b4bc3f0dbd36677c06e782ef5240153a",
+		"bugFixingTs": "2019-08-06T12:52:07.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumCnxManager.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "53f22e19f977016dc53fffa17180bd025dc50802",
+		"bugFixingTs": "2019-08-06T01:43:18.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/admin/Commands.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "49354f581f3b88316177492ef28823b50a5b33f7",
+		"bugFixingTs": "2019-08-05T15:29:50.000+0200",
+		"bugFixingfileChanged": "zookeeper-metrics-providers/zookeeper-prometheus-metrics/src/main/java/org/apache/zookeeper/metrics/prometheus/PrometheusMetricsProvider.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "49354f581f3b88316177492ef28823b50a5b33f7",
+		"bugFixingTs": "2019-08-05T15:29:50.000+0200",
+		"bugFixingfileChanged": "zookeeper-metrics-providers/zookeeper-prometheus-metrics/src/test/java/org/apache/zookeeper/metrics/prometheus/PrometheusMetricsProviderTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/ProtocolSupport.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/WriteLock.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-queue/src/main/java/org/apache/zookeeper/recipes/queue/DistributedQueue.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ZKUtil.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/client/ZooKeeperSaslClient.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/FileChangeWatcher.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/NettyUtils.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/FinalRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NIOServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxnFactory.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d84b7a682eb4601005db9fac886079b1a9a4d4b0",
+		"bugFixingTs": "2019-08-03T08:42:39.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/util/SecurityUtils.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "b2f5548bd5757edbf1887838a487a90523ed2b52",
+		"bugFixingTs": "2019-08-01T07:31:29.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/PrepRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "6d636025d1c6a10840a27caee9e8933f1dbcbaf0",
+		"bugFixingTs": "2019-08-01T07:28:24.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/FinalRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "a89c0942e45bb16e5282eee9d3a56ebbddbaae15",
+		"bugFixingTs": "2019-07-31T11:02:00.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumCnxManager.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/BinaryInputArchive.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/BinaryOutputArchive.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/Index.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/InputArchive.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/OutputArchive.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/Record.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/RecordReader.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/RecordWriter.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/ToStringOutputArchive.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/Utils.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/CGenerator.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/CSharpGenerator.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/CppGenerator.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JBoolean.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JBuffer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JByte.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JCompType.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JDouble.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JField.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JFile.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JFloat.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JInt.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JLong.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JMap.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JRecord.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JString.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JType.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JVector.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/main/java/org/apache/jute/compiler/JavaGenerator.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/test/java/org/apache/jute/BinaryInputArchiveTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/test/java/org/apache/jute/TestCheckWriterReader.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/test/java/org/apache/jute/TestReader.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-jute/src/test/java/org/apache/jute/TestWriter.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "35f4aa227463ca95941b9045f9c554aa1696782f",
+		"bugFixingTs": "2019-07-29T17:15:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NIOServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "fed6cdad1e7a4fb83b568e8bf3ba3cf1da492db9",
+		"bugFixingTs": "2019-07-29T17:09:35.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/admin/JettyAdminServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "New Feature"
+	},
+	{
+		"bugFixingId": "05ee9413e7a31703395b81fb8d72baf1cb09a46d",
+		"bugFixingTs": "2019-07-29T11:49:27.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumCnxManager.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "6281a8693c287fadca72321178023ee78cf9c818",
+		"bugFixingTs": "2019-07-25T23:43:26.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/admin/Commands.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "43ce772db000721546fcd13dd8523002dfa97741",
+		"bugFixingTs": "2019-07-12T17:01:44.000+0200",
+		"bugFixingfileChanged": "zookeeper-it/src/test/java/org/apache/zookeeper/test/system/BaseSysTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "43ce772db000721546fcd13dd8523002dfa97741",
+		"bugFixingTs": "2019-07-12T17:01:44.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/Learner.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "9bee98bd06f50a2085785406a1084f75c652ada1",
+		"bugFixingTs": "2019-07-03T00:44:25.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/DumbWatcher.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "9bee98bd06f50a2085785406a1084f75c652ada1",
+		"bugFixingTs": "2019-07-03T00:44:25.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NIOServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "9bee98bd06f50a2085785406a1084f75c652ada1",
+		"bugFixingTs": "2019-07-03T00:44:25.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "9bee98bd06f50a2085785406a1084f75c652ada1",
+		"bugFixingTs": "2019-07-03T00:44:25.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxnFactory.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "9bee98bd06f50a2085785406a1084f75c652ada1",
+		"bugFixingTs": "2019-07-03T00:44:25.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "9bee98bd06f50a2085785406a1084f75c652ada1",
+		"bugFixingTs": "2019-07-03T00:44:25.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ServerCnxnFactory.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "9bee98bd06f50a2085785406a1084f75c652ada1",
+		"bugFixingTs": "2019-07-03T00:44:25.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/MockServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "9bee98bd06f50a2085785406a1084f75c652ada1",
+		"bugFixingTs": "2019-07-03T00:44:25.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/NIOServerCnxnTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "9bee98bd06f50a2085785406a1084f75c652ada1",
+		"bugFixingTs": "2019-07-03T00:44:25.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/ZabUtils.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "96eefafce7ed036d3ab4a7a6d43792ce433bbfad",
+		"bugFixingTs": "2019-07-02T07:34:21.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/Follower.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "44c9d56f22195223250765f2138336b903e960c0",
+		"bugFixingTs": "2019-07-01T15:16:01.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/Version.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "44c9d56f22195223250765f2138336b903e960c0",
+		"bugFixingTs": "2019-07-01T15:16:01.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/version/util/VerGen.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "4c650696fc89b4492b0f14fbbb4b59f5f03775dd",
+		"bugFixingTs": "2019-06-26T10:35:13.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/version/util/VerGen.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "5627cd4a5a35b31b5b8143eec2a18940d914a7d4",
+		"bugFixingTs": "2019-06-24T11:05:25.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxnFactory.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "89e7e55811b7115a9155f25cd572520055af00fc",
+		"bugFixingTs": "2019-06-07T14:13:24.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ServerCnxnFactory.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "89e7e55811b7115a9155f25cd572520055af00fc",
+		"bugFixingTs": "2019-06-07T14:13:24.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/NettyServerCnxnTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "39c40bea3a04cda70a6f9e8caad64b26d4d046e6",
+		"bugFixingTs": "2019-06-06T00:01:42.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ZKUtil.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "39c40bea3a04cda70a6f9e8caad64b26d4d046e6",
+		"bugFixingTs": "2019-06-06T00:01:42.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/cli/DeleteAllCommand.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "39c40bea3a04cda70a6f9e8caad64b26d4d046e6",
+		"bugFixingTs": "2019-06-06T00:01:42.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/ZooKeeperTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d98a692ff4482f1d97774f25a158ca5473c455e0",
+		"bugFixingTs": "2019-06-05T00:29:24.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/SSLContextAndOptions.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d98a692ff4482f1d97774f25a158ca5473c455e0",
+		"bugFixingTs": "2019-06-05T00:29:24.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/X509Util.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d98a692ff4482f1d97774f25a158ca5473c455e0",
+		"bugFixingTs": "2019-06-05T00:29:24.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxnFactory.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "d98a692ff4482f1d97774f25a158ca5473c455e0",
+		"bugFixingTs": "2019-06-05T00:29:24.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ClientSSLTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "6af151a7e44760c33165e58d3b33a4d2760283a4",
+		"bugFixingTs": "2019-06-04T10:55:09.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/metrics/Gauge.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "6af151a7e44760c33165e58d3b33a4d2760283a4",
+		"bugFixingTs": "2019-06-04T10:55:09.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/metrics/MetricsContext.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "6af151a7e44760c33165e58d3b33a4d2760283a4",
+		"bugFixingTs": "2019-06-04T10:55:09.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/metrics/impl/DefaultMetricsProvider.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "6af151a7e44760c33165e58d3b33a4d2760283a4",
+		"bugFixingTs": "2019-06-04T10:55:09.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/metrics/impl/NullMetricsProvider.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "6af151a7e44760c33165e58d3b33a4d2760283a4",
+		"bugFixingTs": "2019-06-04T10:55:09.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/admin/Commands.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "6af151a7e44760c33165e58d3b33a4d2760283a4",
+		"bugFixingTs": "2019-06-04T10:55:09.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/command/MonitorCommand.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-election/src/main/java/org/apache/zookeeper/recipes/leader/LeaderElectionSupport.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-recipes/zookeeper-recipes-lock/src/main/java/org/apache/zookeeper/recipes/lock/WriteLock.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/AsyncCallback.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNetty.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/Shell.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ZKUtil.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ZooKeeper.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/PathTrie.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/StringUtils.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/X509Exception.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/jmx/ManagedUtil.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/metrics/MetricsContext.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/metrics/MetricsProvider.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ClientCnxnLimitException.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ContainerManager.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/EphemeralType.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/EphemeralTypeEmulate353.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ExpiryQueue.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ServerConfig.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/SyncRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/WorkerService.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ZooKeeperServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/admin/JettyAdminServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/auth/DigestAuthenticationProvider.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/auth/X509AuthenticationProvider.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/FilePadding.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/SnapStream.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/FollowerZooKeeperServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/LeaderZooKeeperServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/Learner.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/QuorumMXBean.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/watch/IWatchManager.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/ZKParameterized.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/common/TimeTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/EphemeralTypeTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/MockServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/ZooKeeperServerStartupTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/admin/CommandsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/FLEBackwardElectionRoundTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/ReconfigBackupTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/ReconfigLegacyTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/StandaloneDisabledTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/auth/QuorumAuthUpgradeTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/util/PortForwarder.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/AsyncOps.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/ClientSSLTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/JMXEnv.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/SSLAuthTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/TestHammer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "0d41fe80cd9218a44cd606f7bc0be61eaf696029",
+		"bugFixingTs": "2019-06-03T19:40:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/X509AuthTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "bb94aa44de61bfb2ecd5bbd12b4eb390c2cf39c1",
+		"bugFixingTs": "2019-05-28T15:55:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/AckRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "bb94aa44de61bfb2ecd5bbd12b4eb390c2cf39c1",
+		"bugFixingTs": "2019-05-28T15:55:11.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/LearnerMetricsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "d713419bde97374a2d1b1cbe51fcb17b4416a196",
+		"bugFixingTs": "2019-05-27T22:33:44.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/LearnerHandlerMetricsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "968f5f365e53d0bcbbe0225cc382327badbd8380",
+		"bugFixingTs": "2019-05-25T19:43:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/FollowerZooKeeperServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Bug"
+	},
+	{
+		"bugFixingId": "cc431f70020b9a2028edcc61e41cff9ee85b078f",
+		"bugFixingTs": "2019-05-22T11:39:06.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/SyncRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "New Feature"
+	},
+	{
+		"bugFixingId": "777f0c15e73a8401a648c3cff93d20b3d3e4ee17",
+		"bugFixingTs": "2019-05-20T17:18:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/util/KerberosUtil.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "777f0c15e73a8401a648c3cff93d20b3d3e4ee17",
+		"bugFixingTs": "2019-05-20T17:18:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/ConnectionMetricsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "777f0c15e73a8401a648c3cff93d20b3d3e4ee17",
+		"bugFixingTs": "2019-05-20T17:18:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/FinalRequestProcessorTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "777f0c15e73a8401a648c3cff93d20b3d3e4ee17",
+		"bugFixingTs": "2019-05-20T17:18:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/PrepRequestProcessorMetricsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "777f0c15e73a8401a648c3cff93d20b3d3e4ee17",
+		"bugFixingTs": "2019-05-20T17:18:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/LeaderBeanTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "777f0c15e73a8401a648c3cff93d20b3d3e4ee17",
+		"bugFixingTs": "2019-05-20T17:18:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/LearnerHandlerMetricsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "777f0c15e73a8401a648c3cff93d20b3d3e4ee17",
+		"bugFixingTs": "2019-05-20T17:18:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/LearnerHandlerTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "777f0c15e73a8401a648c3cff93d20b3d3e4ee17",
+		"bugFixingTs": "2019-05-20T17:18:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/LocalPeerBeanTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "777f0c15e73a8401a648c3cff93d20b3d3e4ee17",
+		"bugFixingTs": "2019-05-20T17:18:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/QuorumPeerMainTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "777f0c15e73a8401a648c3cff93d20b3d3e4ee17",
+		"bugFixingTs": "2019-05-20T17:18:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/RemotePeerBeanTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "777f0c15e73a8401a648c3cff93d20b3d3e4ee17",
+		"bugFixingTs": "2019-05-20T17:18:31.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/util/SerializeUtilsTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "1264e9f2ba8e8724a9352387b22e784716816722",
+		"bugFixingTs": "2019-05-20T12:24:52.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/test/RestoreCommittedLogTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "7ca06c2cbb77695ec33a3d3d2f04e005bbbb63ad",
+		"bugFixingTs": "2019-05-16T16:25:32.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/quorum/QuorumServerTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "31e92e0a4f287ca840e0c9418e3a9b706e9721db",
+		"bugFixingTs": "2019-05-14T17:11:14.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/SyncRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "New Feature"
+	},
+	{
+		"bugFixingId": "4243b95f4c1a0c6c6e9a6d78a789fae647d43b20",
+		"bugFixingTs": "2019-05-10T12:22:34.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/PrepRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "999c834714aba859a96ba32d02e66fb63e70ab35",
+		"bugFixingTs": "2019-05-08T21:54:42.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/metrics/impl/MetricsProviderBootstrap.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "999c834714aba859a96ba32d02e66fb63e70ab35",
+		"bugFixingTs": "2019-05-08T21:54:42.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/watch/WatchManagerFactory.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "cb36d5a95fca6bc098890bde517ba76901adf43a",
+		"bugFixingTs": "2019-05-08T17:51:13.000+0200",
+		"bugFixingfileChanged": "zookeeper-contrib/zookeeper-contrib-zooinspector/src/main/java/com/nitido/utils/toaster/Toaster.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Task"
+	},
+	{
+		"bugFixingId": "3d2a30f5fed9cc77f84c0d27d80020656f21fc06",
+		"bugFixingTs": "2019-04-14T20:00:14.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/FinalRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "3d2a30f5fed9cc77f84c0d27d80020656f21fc06",
+		"bugFixingTs": "2019-04-14T20:00:14.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/PrepRequestProcessor.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "3d2a30f5fed9cc77f84c0d27d80020656f21fc06",
+		"bugFixingTs": "2019-04-14T20:00:14.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/Request.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "3d2a30f5fed9cc77f84c0d27d80020656f21fc06",
+		"bugFixingTs": "2019-04-14T20:00:14.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ServerMetrics.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "a6abb9315bd8309a98393b406ed9f593d4fa25f2",
+		"bugFixingTs": "2019-04-12T19:06:41.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/TxnLog.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "57e8318bc98dd3563085e08b0fcfcbc6a1c5fbcc",
+		"bugFixingTs": "2019-04-09T15:35:40.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "57e8318bc98dd3563085e08b0fcfcbc6a1c5fbcc",
+		"bugFixingTs": "2019-04-09T15:35:40.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocket.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "57e8318bc98dd3563085e08b0fcfcbc6a1c5fbcc",
+		"bugFixingTs": "2019-04-09T15:35:40.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNIO.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "57e8318bc98dd3563085e08b0fcfcbc6a1c5fbcc",
+		"bugFixingTs": "2019-04-09T15:35:40.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNetty.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "57e8318bc98dd3563085e08b0fcfcbc6a1c5fbcc",
+		"bugFixingTs": "2019-04-09T15:35:40.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ZKUtil.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "57e8318bc98dd3563085e08b0fcfcbc6a1c5fbcc",
+		"bugFixingTs": "2019-04-09T15:35:40.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ZKDatabase.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "57e8318bc98dd3563085e08b0fcfcbc6a1c5fbcc",
+		"bugFixingTs": "2019-04-09T15:35:40.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ZooKeeperServer.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "57e8318bc98dd3563085e08b0fcfcbc6a1c5fbcc",
+		"bugFixingTs": "2019-04-09T15:35:40.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/persistence/FileTxnLog.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "57e8318bc98dd3563085e08b0fcfcbc6a1c5fbcc",
+		"bugFixingTs": "2019-04-09T15:35:40.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/CommitProcessor.java",
+		"bugInducingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugInducingTs": "2018-12-20T15:07:14.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "57e8318bc98dd3563085e08b0fcfcbc6a1c5fbcc",
+		"bugFixingTs": "2019-04-09T15:35:40.000+0200",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/quorum/Learner.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "5375c2542977223ff9beaeb62d6ee5aed783118e",
+		"bugFixingTs": "2019-02-18T17:05:51.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "226af6e29bc00fe4a33269351f20ddf5b6658fd2",
+		"bugFixingTs": "2019-02-15T15:36:55.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxnFactory.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "dc909724700e39145c2ca71cee5864fe6c074e3e",
+		"bugFixingTs": "2019-02-13T13:19:28.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/DumbWatcher.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "dc909724700e39145c2ca71cee5864fe6c074e3e",
+		"bugFixingTs": "2019-02-13T13:19:28.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "c2b63926c1249c454319bffe15a7b9f340e0526f",
+		"bugFixingTs": "2019-02-12T15:25:17.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/ClientCnxnSocketNetty.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "c2b63926c1249c454319bffe15a7b9f340e0526f",
+		"bugFixingTs": "2019-02-12T15:25:17.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/NettyUtils.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "c2b63926c1249c454319bffe15a7b9f340e0526f",
+		"bugFixingTs": "2019-02-12T15:25:17.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxn.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "c2b63926c1249c454319bffe15a7b9f340e0526f",
+		"bugFixingTs": "2019-02-12T15:25:17.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/NettyServerCnxnFactory.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "c2b63926c1249c454319bffe15a7b9f340e0526f",
+		"bugFixingTs": "2019-02-12T15:25:17.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/server/NettyServerCnxnTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	},
+	{
+		"bugFixingId": "3302031ee6040fbcbb8f0c54eb37e5e161c7afd2",
+		"bugFixingTs": "2019-01-30T16:43:22.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/ServerMetrics.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "3302031ee6040fbcbb8f0c54eb37e5e161c7afd2",
+		"bugFixingTs": "2019-01-30T16:43:22.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/server/metric/AvgMinMaxCounter.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "3583bbf0f89861a20c23cb417a1fd93daf12a1e1",
+		"bugFixingTs": "2019-01-25T14:37:30.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/main/java/org/apache/zookeeper/common/X509Util.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Sub-task"
+	},
+	{
+		"bugFixingId": "b8c8937029ca7e15116e91c6a6c436368ac0f9bb",
+		"bugFixingTs": "2018-12-20T15:07:14.000+0100",
+		"bugFixingfileChanged": "zookeeper-server/src/test/java/org/apache/zookeeper/common/FileChangeWatcherTest.java",
+		"bugInducingId": "e043c322f12d56da0fc88131628edf0731c0f8e4",
+		"bugInducingTs": "2018-12-15T07:34:54.000+0100",
+		"issueType": "Improvement"
+	}
+]

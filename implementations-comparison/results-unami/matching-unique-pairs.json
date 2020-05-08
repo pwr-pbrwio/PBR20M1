@@ -1,0 +1,10 @@
+[
+	{
+		"bugFixingId": "1e6ca5877351188f53aaee884fbb55466bf6eea9",
+		"bugFixingTs": "2019-06-09T15:48:26.000+0200",
+		"bugFixingfileChanged": "services/src/main/java/org/apache/unomi/services/services/SegmentServiceImpl.java",
+		"bugInducingId": "8a3ff4dc2bdc2492c27427031f7bf8166ffc94f5",
+		"bugInducingTs": "2015-11-12T18:20:03.000+0100",
+		"issueType": "Bug"
+	}
+]

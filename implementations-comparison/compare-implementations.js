@@ -1,8 +1,5 @@
 const fse = require('fs-extra');
-
-const REPO_NAME = 'commons-bcel';
-const OPENSZZ_RESULTS_JSON_FILE = './commons-bcel-data/openszz.json';
-const UNLEASHEDSZZ_RESULTS_JSON_FILE = './commons-bcel-data/unleashedszz.json';
+const argv = require('minimist')(process.argv.slice(2));
 
 const FAKE_INDUCING_COMMITS = [
   'd47fec240c633b061a3ae9351f8199e8785261b4',
@@ -22,16 +19,22 @@ const FAKE_FIXING_COMMITS = [
   '3eb7299f4fad1fd95c13c81c7b67cdf2cc86b93d',
 ];
 
-const compareImplementations = async () => {
-  const { openSZZResults, unleashedSZZResults } = await readData();
+const compareImplementations = async (openSzzDataPath, unleashedSzzDataPath, repoName) => {
+  const { openSZZResults, unleashedSZZResults } = await readData(openSzzDataPath, unleashedSzzDataPath);
   const unleashedSZZTransformedResults = convertUnleashedSZZCommitArrayToObjects(unleashedSZZResults);
 
-  performComparison(openSZZResults, unleashedSZZTransformedResults);
-  performDatasetAnalysis('openszz', openSZZResults, FAKE_INDUCING_COMMITS, FAKE_FIXING_COMMITS);
-  performDatasetAnalysis('unleashedszz', unleashedSZZTransformedResults, FAKE_INDUCING_COMMITS, FAKE_FIXING_COMMITS);
+  performComparison(openSZZResults, unleashedSZZTransformedResults, repoName);
+  performDatasetAnalysis('openszz', openSZZResults, repoName, FAKE_INDUCING_COMMITS, FAKE_FIXING_COMMITS);
+  performDatasetAnalysis(
+    'unleashedszz',
+    unleashedSZZTransformedResults,
+    repoName,
+    FAKE_INDUCING_COMMITS,
+    FAKE_FIXING_COMMITS
+  );
 };
 
-const performDatasetAnalysis = (datasetName, dataset, fakeInducingCommits, fakeFixingCommits) => {
+const performDatasetAnalysis = (datasetName, dataset, repoName, fakeInducingCommits, fakeFixingCommits) => {
   const resultsWithoutFakeInducingCommits = filterOutCommits(dataset, 'bugInducingId', fakeInducingCommits);
   const resultsWithoutFakeFixingCommits = filterOutCommits(dataset, 'bugFixingId', fakeFixingCommits);
   const resultsWithoutFakeCommits = filterOutCommits(
@@ -51,32 +54,32 @@ const performDatasetAnalysis = (datasetName, dataset, fakeInducingCommits, fakeF
   console.log('\n');
 
   fse.outputFileSync(
-    `./results-${REPO_NAME}/${datasetName}/results-without-fake-inducing-commits.json`,
+    `./results-${repoName}/${datasetName}/results-without-fake-inducing-commits.json`,
     JSON.stringify(resultsWithoutFakeInducingCommits, null, '\t')
   );
   fse.outputFileSync(
-    `./results-${REPO_NAME}/${datasetName}/results-without-fake-fixing-commits.json`,
+    `./results-${repoName}/${datasetName}/results-without-fake-fixing-commits.json`,
     JSON.stringify(resultsWithoutFakeFixingCommits, null, '\t')
   );
   fse.outputFileSync(
-    `./results-${REPO_NAME}/${datasetName}/results-without-fake-commits.json`,
+    `./results-${repoName}/${datasetName}/results-without-fake-commits.json`,
     JSON.stringify(resultsWithoutFakeCommits, null, '\t')
   );
   fse.outputFileSync(
-    `./results-${REPO_NAME}/${datasetName}/results-without-fake-commits-and-duplicates.json`,
+    `./results-${repoName}/${datasetName}/results-without-fake-commits-and-duplicates.json`,
     JSON.stringify(resultsWithoutFakeCommitsAndDuplicates, null, '\t')
   );
   fse.outputFileSync(
-    `./results-${REPO_NAME}/${datasetName}/best-fixers.json`,
+    `./results-${repoName}/${datasetName}/best-fixers.json`,
     JSON.stringify([...bestFixersMap], null, '\t')
   );
 };
 
-const performComparison = (openSZZResults, unleashedSZZTransformedResults) => {
+const performComparison = (openSZZResults, unleashedSZZTransformedResults, repoName) => {
   const matchingPairs = getMatchingPairs(openSZZResults, unleashedSZZTransformedResults);
   const uniqueMatchingPairs = getUniquePairs(matchingPairs);
 
-  saveResults(matchingPairs, uniqueMatchingPairs);
+  saveResults(matchingPairs, uniqueMatchingPairs, repoName);
 };
 
 const getBestFixers = (dataset) => {
@@ -95,17 +98,17 @@ const filterOutCommits = (dataset, key, commits) => {
   return dataset.filter((record) => !commits.includes(record[key]));
 };
 
-const saveResults = (matchingPairs, uniqueMatchingPairs) => {
+const saveResults = (matchingPairs, uniqueMatchingPairs, repoName) => {
   console.log('##### Comparison results #####');
   console.log(`Matching pairs count: ${matchingPairs.length}`);
   console.log(`Matching unique pairs count: ${uniqueMatchingPairs.length}`);
   console.log('\n');
 
   fse.outputFileSync(
-    `./results-${REPO_NAME}/matching-unique-pairs.json`,
+    `./results-${repoName}/matching-unique-pairs.json`,
     JSON.stringify(uniqueMatchingPairs, null, '\t')
   );
-  fse.outputFileSync(`./results-${REPO_NAME}/matching-pairs.json`, JSON.stringify(matchingPairs, null, '\t'));
+  fse.outputFileSync(`./results-${repoName}/matching-pairs.json`, JSON.stringify(matchingPairs, null, '\t'));
 };
 
 const getUniquePairs = (pairs) => {
@@ -137,9 +140,9 @@ const convertUnleashedSZZCommitArrayToObjects = (unleashedSZZResults) => {
   });
 };
 
-const readData = async () => {
-  const openSZZResultsPromise = loadJSONFile(OPENSZZ_RESULTS_JSON_FILE);
-  const unleashedSZZResultsPromise = loadJSONFile(UNLEASHEDSZZ_RESULTS_JSON_FILE);
+const readData = async (openSzzDataPath, unleashedSzzDataPath) => {
+  const openSZZResultsPromise = loadJSONFile(openSzzDataPath);
+  const unleashedSZZResultsPromise = loadJSONFile(unleashedSzzDataPath);
   const [openSZZResults, unleashedSZZResults] = await Promise.all([openSZZResultsPromise, unleashedSZZResultsPromise]);
   return {
     openSZZResults,
@@ -162,5 +165,19 @@ const loadJSONFile = (filepath) => {
     });
   });
 };
+const getCommandArguments = () => {
+  const openSzzDataPath = argv['openszz-data-path'];
+  const unleashedSzzDataPath = argv['unleashedszz-data-path'];
+  const repoName = argv['repo-name'];
 
-compareImplementations();
+  if (!openSzzDataPath || !unleashedSzzDataPath || !repoName) throw new Error('Invalid input data!');
+
+  return {
+    openSzzDataPath,
+    unleashedSzzDataPath,
+    repoName,
+  };
+};
+
+const { openSzzDataPath, unleashedSzzDataPath, repoName } = getCommandArguments();
+compareImplementations(openSzzDataPath, unleashedSzzDataPath, repoName);
