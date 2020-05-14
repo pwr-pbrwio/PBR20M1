@@ -147,9 +147,10 @@ public class SimpleBugIntroducerFinder implements BugIntroducerFinder {
 
         while (revisions.hasNext()) {
           String rev = revisions.next();
-          String[] pair = new String[2];
+          String[] pair = new String[3];
           pair[0] = sCommitString;
           pair[1] = rev;
+          pair[2] = fileGraph.filePath;
 
           /*
            * Check if the timestamp is within the timeframe or not.
@@ -192,7 +193,12 @@ public class SimpleBugIntroducerFinder implements BugIntroducerFinder {
           continue;
         
         if (isWithinTimeframe(pair[1], pair[0])) {
-          bugIntroducers.add(pair);
+          String[] exPair = {
+            pair[0],
+            pair[1],
+            entry.getKey(),
+          };
+          bugIntroducers.add(exPair);
         } else {
 
           if (!partialIntroducers.containsKey(entry.getKey())) {
@@ -224,7 +230,12 @@ public class SimpleBugIntroducerFinder implements BugIntroducerFinder {
         if (pair[0] == "" && pair[1] == "")
           continue;
         if (isPartialFix(pair[0])) {
-          bugIntroducers.add(pair);
+          String[] exPair = {
+                  pair[0],
+                  pair[1],
+                  suspects.getKey(),
+          };
+          bugIntroducers.add(exPair);
         }
       }
     }

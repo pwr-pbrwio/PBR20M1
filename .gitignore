@@ -6,3 +6,4 @@
 /results/
 .temp
 node_modules
+__pycache__
