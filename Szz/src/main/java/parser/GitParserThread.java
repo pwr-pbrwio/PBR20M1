@@ -58,9 +58,7 @@ public class GitParserThread extends Thread {
       this.issues = issues;
 
       this.bugFinder = bugFinder;
-    } catch (IOException e) {
-      e.printStackTrace();
-    } catch (GitAPIException e) {
+    } catch (Exception e) {
       e.printStackTrace();
     }
 
@@ -79,9 +77,7 @@ public class GitParserThread extends Thread {
               conf.getDiffCustomContext());
       this.issues = issues;
       this.bugFinder = conf.getBugFinder();
-    } catch (IOException e) {
-      e.printStackTrace();
-    } catch (GitAPIException e) {
+    } catch (Exception e) {
       e.printStackTrace();
     }
   }

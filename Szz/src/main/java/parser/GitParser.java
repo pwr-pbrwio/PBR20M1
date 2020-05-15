@@ -46,16 +46,25 @@ import org.slf4j.Logger;
 import util.CommitUtil;
 import util.JSONUtil;
 
+//import refdiff.core.RefDiff;
+//import refdiff.core.rm2.model.refactoring.SDRefactoring;
+//import refdiff.core.api.GitService;
+//import refdiff.core.util.GitServiceImpl;
+
 /**
- * A class which is capable to search and build line mapping graphs from a local repository. Uses
- * JGit to parse the repository and the revision trees.
+ * A class which is capable to search and build line mapping graphs from a local
+ * repository. Uses JGit to parse the repository and the revision trees.
  *
  * @author Oscar Svensson
  */
 public class GitParser {
+  private final int TWO_YEARS_IN_SEC = 61516800;
+  private final String filePattern = ".*\\.java";
 
   private CommitUtil util;
   private Repository repo;
+//  private Repository repo2;
+  private static int rid = 0;
   private Issues issues;
 
   private String resultPath;
@@ -64,22 +73,26 @@ public class GitParser {
   private Logger logger;
 
   private int depth;
+//  RefDiff refDiff = new RefDiff();
+//  GitService gitService = new GitServiceImpl();
 
   /**
-   * The constructor for the GitParser class. It requires the repository to exist and will fail if
-   * its not. The resultPath is also created if it's not existing.
+   * The constructor for the GitParser class. It requires the repository to exist
+   * and will fail if its not. The resultPath is also created if it's not
+   * existing.
    *
-   * @param path the path to where the local repository can be found.
+   * @param path       the path to where the local repository can be found.
    * @param resultPath the path to where the JSON files will be written.
    */
-  public GitParser(String path, String resultPath, int depth, int customContext)
-      throws IOException, GitAPIException {
+  public GitParser(String path, String resultPath, int depth, int customContext) throws Exception, IOException, GitAPIException {
     FileRepositoryBuilder builder = new FileRepositoryBuilder();
     builder.setMustExist(true);
 
     builder.addCeilingDirectory(new File(path));
     builder.findGitDir(new File(path));
     this.repo = builder.build();
+//    this.repo2 = gitService.cloneIfNotExists("./tmp/repo" + rid, "https://github.com/apache/unomi.git");
+//    rid += 1;
 
     this.resultPath = resultPath;
 
@@ -89,7 +102,8 @@ public class GitParser {
 
     if (this.resultPath != null) {
       File resDirectory = new File(resultPath);
-      if (!resDirectory.exists()) resDirectory.mkdirs();
+      if (!resDirectory.exists())
+        resDirectory.mkdirs();
     } else {
       System.err.println("Resultpath not set! Using deafult directory instead.");
       this.resultPath = this.DEFAULT_RES_PATH;
@@ -119,14 +133,13 @@ public class GitParser {
   /**
    * Map lines between one commit and another.
    *
-   * @param foundCommit a blameresult containing information about a commit that have made changes
-   *     to a file.
-   * @param filePath the file that the commit have made changes to.
-   * @return a mapping with the original revision file lines as keys and the values the
-   *     corresponding lines in the other commit.
+   * @param foundCommit a blameresult containing information about a commit that
+   *                    have made changes to a file.
+   * @param filePath    the file that the commit have made changes to.
+   * @return a mapping with the original revision file lines as keys and the
+   *         values the corresponding lines in the other commit.
    */
-  private List<Integer> getLineMappings(BlameResult foundCommit, String filePath)
-      throws IOException, GitAPIException {
+  private List<Integer> getLineMappings(BlameResult foundCommit, String filePath) throws IOException, GitAPIException {
     foundCommit.computeAll();
     RawText foundContent = foundCommit.getResultContents();
 
@@ -141,8 +154,7 @@ public class GitParser {
     return lineMappings;
   }
 
-  private int getSourceLine(BlameResult foundCommit, int index)
-      throws IOException, GitAPIException {
+  private int getSourceLine(BlameResult foundCommit, int index) throws IOException, GitAPIException {
     foundCommit.computeAll();
 
     try {
@@ -156,12 +168,13 @@ public class GitParser {
    * Traces a file change that have occured before a given commmit.
    *
    * @param filePath specifies which file to trace changes on.
-   * @param source the source commit from which the trace should start at.
+   * @param source   the source commit from which the trace should start at.
    */
   private FileAnnotationGraph traceFileChanges(String filePath, Commit source, int step)
       throws IOException, GitAPIException {
 
-    if (step == 0) return null;
+    if (step == 0)
+      return null;
 
     BlameCommand command = new BlameCommand(this.repo);
 
@@ -170,15 +183,11 @@ public class GitParser {
      */
     List<Integer> delIndexes = null;
     if (source.diffWithParent.containsKey(filePath))
-      delIndexes =
-          source
-              .diffWithParent
-              .get(filePath)
-              .deletions
-              .stream()
-              .map(s -> parseInt(s[0]))
-              .collect(Collectors.toList());
-    else return null;
+      delIndexes = source.diffWithParent.get(filePath).deletions.stream().map(s -> parseInt(s[0]))
+          .collect(Collectors.toList());
+    else
+      return null;
+
 
     /*
      * Create a graph to store line mappings in.
@@ -198,7 +207,8 @@ public class GitParser {
     command.setFilePath(filePath);
 
     BlameResult found = command.call();
-    if (found == null) return graph;
+    if (found == null)
+      return graph;
 
     Map<RevCommit, Map<Integer, Integer>> foundRevisions = new HashMap<>();
 
@@ -207,7 +217,8 @@ public class GitParser {
      */
     for (int i = 0; i < delIndexes.size(); i++) {
       index = delIndexes.get(i);
-      if (index == -1) continue;
+      if (index == -1)
+        continue;
       try {
         RevCommit foundRev = found.getSourceCommit(index);
 
@@ -230,9 +241,11 @@ public class GitParser {
     for (Map.Entry<RevCommit, Map<Integer, Integer>> rev : foundRevisions.entrySet()) {
       String revSha = ObjectId.toString(rev.getKey().toObjectId());
 
-      if (!graph.mappings.containsKey(revSha)) {
-        graph.revisions.add(revSha);
-        graph.mappings.put(revSha, rev.getValue());
+      if (!graph.mappings.containsKey(revSha) ) {
+        if (Math.abs(rev.getKey().getCommitTime() - source.commit.getCommitTime()) < TWO_YEARS_IN_SEC) {
+          graph.revisions.add(revSha);
+          graph.mappings.put(revSha, rev.getValue());
+        }
       } else {
         Map<Integer, Integer> linemapping = graph.mappings.get(revSha);
         // Add missing mappings.
@@ -251,7 +264,8 @@ public class GitParser {
       Commit subCommit = this.util.getCommitDiffingLines(rev.getKey());
       FileAnnotationGraph subGraph = traceFileChanges(filePath, subCommit, step - 1);
 
-      if (subGraph == null) break;
+      if (subGraph == null)
+        break;
       graph.sub_graphs.put(subCommit.getHashString(), subGraph);
     }
 
@@ -259,21 +273,25 @@ public class GitParser {
   }
 
   /**
-   * With each revision, check all files and build their line mapping graphs for each changed line.
+   * With each revision, check all files and build their line mapping graphs for
+   * each changed line.
    *
    * @param commits list of commits that should be traced.
-   * @return the map containing annotation graphs for each file change by a commit.
+   * @return the map containing annotation graphs for each file change by a
+   *         commit.
    */
-  private AnnotationMap<String, List<FileAnnotationGraph>> buildLineMappingGraph(
-      List<Commit> commits) throws IOException, GitAPIException {
+  private AnnotationMap<String, List<FileAnnotationGraph>> buildLineMappingGraph(List<Commit> commits)
+      throws IOException, GitAPIException {
 
     AnnotationMap<String, List<FileAnnotationGraph>> fileGraph = new AnnotationMap<>();
     for (Commit commit : commits) {
       List<FileAnnotationGraph> graphs = new LinkedList<>();
       for (Map.Entry<String, DiffEntry.ChangeType> file : commit.changeTypes.entrySet()) {
-        FileAnnotationGraph tracedCommits = traceFileChanges(file.getKey(), commit, this.depth);
+        if (file.getKey().matches(filePattern)) {
+          FileAnnotationGraph tracedCommits = traceFileChanges(file.getKey(), commit, this.depth);
 
-        graphs.add(tracedCommits);
+          graphs.add(tracedCommits);
+        }
       }
 
       fileGraph.put(commit.getHashString(), graphs);
@@ -297,10 +315,11 @@ public class GitParser {
   }
 
   /**
-   * Searchs for commits that have certain keywords in their messages, indicating that they have
-   * fiexd bugs.
+   * Searchs for commits that have certain keywords in their messages, indicating
+   * that they have fiexd bugs.
    *
-   * <p>It then saves the found commits and the line mapping graph to two JSON files.
+   * <p>
+   * It then saves the found commits and the line mapping graph to two JSON files.
    *
    * @param commits a set containing references to commits.
    */
@@ -327,7 +346,8 @@ public class GitParser {
    * @param path the path to the json file where the changes are stored.
    */
   public Set<RevCommit> readBugFixCommits(String path) throws IOException, GitAPIException {
-    if (repo == null) return Collections.emptySet();
+    if (repo == null)
+      return Collections.emptySet();
 
     this.issues = new Issues();
 
@@ -360,11 +380,14 @@ public class GitParser {
 
     this.logger.info(String.format("Found %d number of commits.", this.issues.revisions.size()));
 
-    if (this.issues.revisions.size() == 0) return Collections.emptySet();
+    if (this.issues.revisions.size() == 0)
+      return Collections.emptySet();
     return this.issues.revisions;
   }
 
-  /** Finds commits that indicates a bugfix and then builds a line mapping graph. */
+  /**
+   * Finds commits that indicates a bugfix and then builds a line mapping graph.
+   */
   public Set<RevCommit> searchForBugFixes() throws IOException, GitAPIException {
     if (repo == null) {
       return Collections.emptySet();
