@@ -28,6 +28,7 @@ version = '0.1'
 
 repositories {
         jcenter()
+        mavenLocal()
 }
 
 jar {
@@ -52,6 +53,7 @@ dependencies {
         compile group: 'commons-cli', name: 'commons-cli', version: '1.4'
         compile group: 'info.debatty', name: 'java-string-similarity', version: '1.0.1'
         compile group: 'com.googlecode.json-simple', name: 'json-simple', version: '1.1'
+        compile group: 'org.refactoringminer', name: 'RefactoringMiner', version: '1.0'
 }
 
 task runJar(type: JavaExec) {

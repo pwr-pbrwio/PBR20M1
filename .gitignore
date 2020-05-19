@@ -7,3 +7,6 @@
 .temp
 node_modules
 __pycache__
+Szz/gradle/
+Szz/gradlew
+Szz/gradlew.bat
