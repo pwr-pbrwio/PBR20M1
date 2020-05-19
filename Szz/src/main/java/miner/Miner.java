@@ -32,13 +32,7 @@ public class Miner {
     }
 
     static private void handleRefactoring(Refactoring refactoring, Map<String, List<Integer>> rlm) {
-        if (refactoring instanceof ExtractOperationRefactoring) {
-            ExtractOperationRefactoring eoref = (ExtractOperationRefactoring) refactoring;
-            handleCodeRange(eoref.getExtractedCodeRangeToExtractedOperation(), rlm);
-            handleCodeRange(eoref.getSourceOperationCodeRangeAfterExtraction(), rlm);
-            handleCodeRange(eoref.getExtractedOperationCodeRange(), rlm);
-            eoref.getExtractedOperationInvocationCodeRanges().forEach(cr -> handleCodeRange(cr, rlm));
-        }
+        refactoring.leftSide().forEach(cr -> handleCodeRange(cr, rlm));
     }
 
     static private void handleCodeRange(CodeRange codeRange, Map<String, List<Integer>> refLinesMap) {
