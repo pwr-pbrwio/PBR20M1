@@ -23,6 +23,10 @@
  */
 
 import diff.SimplePartition;
+
+import java.io.File;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.*;
 import org.apache.commons.cli.*;
 import org.slf4j.Logger;
@@ -39,11 +43,24 @@ public class Main {
 
   private static final Logger logger = LoggerFactory.getLogger(Main.class);
 
+  private static boolean deleteDirectory(File directoryToBeDeleted) {
+    File[] allContents = directoryToBeDeleted.listFiles();
+    if (allContents != null) {
+      for (File file : allContents) {
+        deleteDirectory(file);
+      }
+    }
+    return directoryToBeDeleted.delete();
+  }
+
   public static void main(String... args) {
     DateTimeFormatter dtf = DateTimeFormatter.ofPattern("HH:mm:ss");
     LocalDateTime startTime = LocalDateTime.now();
     logger.info(String.format("Started at %s", dtf.format(startTime)));
     Configuration conf = Configuration.init(logger, args);
+
+    File toBeDeleted = Paths.get("./issues").toFile();
+    deleteDirectory(toBeDeleted);
 
     List<String> issue_paths =
         SimplePartition.splitFile(conf.getNumberOfCPUS(), conf.getIssuePath(), "./issues");

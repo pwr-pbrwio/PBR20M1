@@ -269,6 +269,8 @@ public class GitParser {
       graph.sub_graphs.put(subCommit.getHashString(), subGraph);
     }
 
+    graph.removeRefactorings(repo);
+
     return graph;
   }
 
@@ -284,7 +286,9 @@ public class GitParser {
       throws IOException, GitAPIException {
 
     AnnotationMap<String, List<FileAnnotationGraph>> fileGraph = new AnnotationMap<>();
+    int iterations = 0;
     for (Commit commit : commits) {
+      logger.info(String.format("Iteration %s of %s", iterations++, commits.size()));
       List<FileAnnotationGraph> graphs = new LinkedList<>();
       for (Map.Entry<String, DiffEntry.ChangeType> file : commit.changeTypes.entrySet()) {
         if (file.getKey().matches(filePattern)) {

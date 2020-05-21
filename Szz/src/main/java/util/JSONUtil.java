@@ -73,7 +73,7 @@ public class JSONUtil {
     for (String[] pair : commits) {
       JSONArray jPair = new JSONArray();
 
-      for (var el : pair) {
+      for (String el : pair) {
         jPair.add(el);
       }
 //      jPair.add(pair[0]);

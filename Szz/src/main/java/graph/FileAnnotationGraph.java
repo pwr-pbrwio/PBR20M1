@@ -24,7 +24,11 @@
 
 package graph;
 
+import java.lang.reflect.Array;
 import java.util.*;
+
+import miner.Miner;
+import org.eclipse.jgit.lib.Repository;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
@@ -37,11 +41,41 @@ import org.json.simple.JSONObject;
  * @author Oscar Svensson
  */
 public class FileAnnotationGraph {
+
+  private final static Map<String, Map<String, List<Integer>>> refLinesCache = new HashMap<>();
   public String filePath;
 
   public LinkedList<String> revisions;
   public Map<String, Map<Integer, Integer>> mappings;
   public Map<String, FileAnnotationGraph> sub_graphs;
+
+  public void removeRefactorings(Repository repo) {
+    ArrayList<String> revArray = new ArrayList<>(revisions);
+    for (int i = 0; i < revArray.size() - 1; i++) {
+      String right = revArray.get(i);
+      String left = revArray.get(i + 1);
+      List<Integer> fileRefLines = getRevisionLines(repo, left, right);
+      if (fileRefLines == null) return;
+      Map<Integer, Integer> mapping = getLineMapping(left);
+
+      for (Integer refLine : fileRefLines) {
+        mapping.remove(refLine);
+      }
+    }
+  }
+
+  private List<Integer> getRevisionLines(Repository repo, String parent, String child) {
+    try {
+      Map<String, List<Integer>> revisionRefLines = refLinesCache.get(parent + "#" + child);
+      if (revisionRefLines == null) {
+        revisionRefLines = Miner.getRefactoringLines(repo, parent, child);
+        refLinesCache.put(parent + "#" + child, revisionRefLines);
+      }
+      return revisionRefLines.get(filePath);
+    } catch (Exception e) {
+      return null;
+    }
+  }
 
   /**
    * Get line mapping for a specific revison to its successor. Returns an empty map if the given
