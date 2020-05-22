@@ -5,6 +5,8 @@ random.seed(seed)
 up = int(sys.argv[3])
 low = int(sys.argv[2])
 num = int(sys.argv[1])
-r = [random.randint(low, up) for i in range(num)]
+r = random.sample(range(low, up), num)
+# [random.randint(low, up) for i in range(num)]
+r.sort()
 
 print(r)
