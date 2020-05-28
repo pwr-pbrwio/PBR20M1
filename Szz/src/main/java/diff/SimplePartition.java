@@ -51,46 +51,30 @@ public class SimplePartition {
     try {
       JSONObject issues = (JSONObject) parser.parse(new FileReader(path));
 
-      int size = issues.keySet().size();
-
-      int div = size / partitions;
-      int mod = size % partitions;
-
-      List<Integer[]> chunks = new ArrayList<>();
-
-      /*
-       * Divide into evenly sized chunks.
-       */
-      for (int i = 0; i < partitions; i++) {
-        Integer[] chunk = new Integer[2];
-        chunk[0] = i * div + Math.min(i, mod);
-        chunk[1] = (i + 1) * div + Math.min(i + 1, mod);
-        if (i < partitions - 1) chunk[1] -= 1;
-
-        chunks.add(chunk);
-      }
-
       List<String> keys = new ArrayList<>(issues.keySet());
 
+      List<JSONObject> chunks = new ArrayList<>();
+
+      // Initialize List
       for (int i = 0; i < partitions; i++) {
-        JSONObject chunkObject = new JSONObject();
-        Integer[] chunk = chunks.get(i);
+        chunks.add(new JSONObject());
+      }
 
-        int limit = i < partitions - 1 ? chunk[1] : chunk[1] - 1;
-        for (int start = chunk[0]; start <= limit; start++) {
-          String key = keys.get(start);
-          chunkObject.put(key, issues.get(key));
-        }
+      for (int i = 0; i < keys.size(); i++) {
+        String key = keys.get(i);
 
+        chunks.get(i % partitions).put(key, issues.get(keys.get(i)));
+      }
+
+      for (int i = 0; i < partitions; i++) {
         String chunkPath = resPath + "/" + String.format(SUBFIXINTRODUCERSPATH, i);
 
         FileWriter writer = new FileWriter(chunkPath);
-        writer.write(chunkObject.toJSONString());
+        writer.write(chunks.get(i).toJSONString());
         writer.flush();
 
         paths.add(chunkPath);
       }
-
     } catch (IOException | ParseException e) {
       e.printStackTrace();
       return new LinkedList<>();
