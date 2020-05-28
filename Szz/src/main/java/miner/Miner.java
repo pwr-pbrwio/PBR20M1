@@ -16,10 +16,18 @@ import java.util.Map;
 public class Miner {
     static private final GitHistoryRefactoringMiner miner = new GitHistoryRefactoringMinerImpl();
 
-    static public Map<String, List<Integer>> getRefactoringLines(Repository repo, String parentHash, String sourceHash) throws Exception {
+    static private final Map<String, Map<String, List<Integer>>> cache = new HashMap<>();
+    static public Map<String, List<Integer>>getRefactoringLines(Repository repo, String sourceHash) throws Exception {
+        if (!cache.containsKey(sourceHash)) {
+            cache.put(sourceHash, getRefactoringLinesWithoutCache(repo, sourceHash));
+        }
+        return cache.get(sourceHash);
+    }
+
+    static private Map<String, List<Integer>> getRefactoringLinesWithoutCache(Repository repo, String sourceHash) throws Exception {
         Map<String, List<Integer>> refLinesMap = new HashMap<>();
-        miner.detectBetweenCommits(repo,
-            parentHash, sourceHash,
+        miner.detectAtCommit(repo,
+            sourceHash,
             new RefactoringHandler() {
                 @Override
                 public void handle(String commitId, List<Refactoring> refactorings) {
@@ -32,7 +40,7 @@ public class Miner {
     }
 
     static private void handleRefactoring(Refactoring refactoring, Map<String, List<Integer>> rlm) {
-        refactoring.leftSide().forEach(cr -> handleCodeRange(cr, rlm));
+        refactoring.rightSide().forEach(cr -> handleCodeRange(cr, rlm));
     }
 
     static private void handleCodeRange(CodeRange codeRange, Map<String, List<Integer>> refLinesMap) {

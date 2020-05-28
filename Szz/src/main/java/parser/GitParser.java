@@ -30,6 +30,8 @@ import graph.FileAnnotationGraph;
 import java.io.*;
 import java.util.*;
 import java.util.stream.*;
+
+import miner.Miner;
 import org.eclipse.jgit.api.BlameCommand;
 import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.blame.BlameResult;
@@ -73,8 +75,6 @@ public class GitParser {
   private Logger logger;
 
   private int depth;
-//  RefDiff refDiff = new RefDiff();
-//  GitService gitService = new GitServiceImpl();
 
   /**
    * The constructor for the GitParser class. It requires the repository to exist
@@ -91,8 +91,6 @@ public class GitParser {
     builder.addCeilingDirectory(new File(path));
     builder.findGitDir(new File(path));
     this.repo = builder.build();
-//    this.repo2 = gitService.cloneIfNotExists("./tmp/repo" + rid, "https://github.com/apache/unomi.git");
-//    rid += 1;
 
     this.resultPath = resultPath;
 
@@ -171,7 +169,7 @@ public class GitParser {
    * @param source   the source commit from which the trace should start at.
    */
   private FileAnnotationGraph traceFileChanges(String filePath, Commit source, int step)
-      throws IOException, GitAPIException {
+          throws Exception {
 
     if (step == 0)
       return null;
@@ -181,9 +179,13 @@ public class GitParser {
     /*
      * Save all line numbers for the source commits deletions.
      */
+    Map<String, List<Integer>> refs = Miner.getRefactoringLines(repo, source.getHashString());
+    List<Integer> refsForFile = refs.get(filePath);
+
     List<Integer> delIndexes = null;
     if (source.diffWithParent.containsKey(filePath))
       delIndexes = source.diffWithParent.get(filePath).deletions.stream().map(s -> parseInt(s[0]))
+          .filter(l -> refsForFile == null || !refsForFile.contains(l))
           .collect(Collectors.toList());
     else
       return null;
@@ -241,17 +243,18 @@ public class GitParser {
     for (Map.Entry<RevCommit, Map<Integer, Integer>> rev : foundRevisions.entrySet()) {
       String revSha = ObjectId.toString(rev.getKey().toObjectId());
 
-      if (!graph.mappings.containsKey(revSha) ) {
-        if (Math.abs(rev.getKey().getCommitTime() - source.commit.getCommitTime()) < TWO_YEARS_IN_SEC) {
-          graph.revisions.add(revSha);
-          graph.mappings.put(revSha, rev.getValue());
-        }
-      } else {
-        Map<Integer, Integer> linemapping = graph.mappings.get(revSha);
-        // Add missing mappings.
-        for (Map.Entry<Integer, Integer> entry : rev.getValue().entrySet()) {
-          if (!linemapping.containsKey(entry.getKey())) {
-            linemapping.put(entry.getKey(), entry.getValue());
+      // If bug introducer is more than two years older than fix ignore it
+      if (Math.abs(rev.getKey().getCommitTime() - source.commit.getCommitTime()) < TWO_YEARS_IN_SEC) {
+        if (!graph.mappings.containsKey(revSha) ) {
+            graph.revisions.add(revSha);
+            graph.mappings.put(revSha, rev.getValue());
+        } else {
+          Map<Integer, Integer> linemapping = graph.mappings.get(revSha);
+          // Add missing mappings.
+          for (Map.Entry<Integer, Integer> entry : rev.getValue().entrySet()) {
+            if (!linemapping.containsKey(entry.getKey())) {
+              linemapping.put(entry.getKey(), entry.getValue());
+            }
           }
         }
       }
@@ -269,7 +272,7 @@ public class GitParser {
       graph.sub_graphs.put(subCommit.getHashString(), subGraph);
     }
 
-    graph.removeRefactorings(repo);
+//    graph.removeRefactorings(repo);
 
     return graph;
   }
@@ -283,7 +286,7 @@ public class GitParser {
    *         commit.
    */
   private AnnotationMap<String, List<FileAnnotationGraph>> buildLineMappingGraph(List<Commit> commits)
-      throws IOException, GitAPIException {
+          throws Exception {
 
     AnnotationMap<String, List<FileAnnotationGraph>> fileGraph = new AnnotationMap<>();
     int iterations = 0;
@@ -328,7 +331,7 @@ public class GitParser {
    * @param commits a set containing references to commits.
    */
   public AnnotationMap<String, List<FileAnnotationGraph>> annotateCommits(Set<RevCommit> commits)
-      throws IOException, GitAPIException {
+          throws Exception {
     this.logger.info("Parsing difflines for all found commits.");
     List<Commit> parsedCommits = this.util.getDiffingLines(commits);
 
