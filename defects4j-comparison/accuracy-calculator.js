@@ -1,8 +1,7 @@
 const fse = require("fs-extra");
 const csv = require("csvtojson");
 
-const PROJECT_NAME = "commons-math";
-const DATA_INPUT_FILE = "./data/input/commons-math-v2-d2.json";
+const DATA_INPUT_FILE = "./data/input/commons-compress-d3.json";
 const DEFECTS4J_INPUT_FILE = "./bugs_dataset.csv";
 
 const main = async () => {
@@ -13,11 +12,12 @@ const main = async () => {
 
   const uniqueSzzResults = filterDuplicatedPairs(szzResults);
 
-  const matchingPairs = getMatchingPairs(uniqueSzzResults, bugDb);
+  const matchedPairs = getMatchingPairs(szzResults, bugDb);
   const accuracy = calculateAccuracy(
-    matchingPairs.length,
+    matchedPairs.length,
     uniqueSzzResults.length
   );
+  console.log({ matchedParis: matchedPairs.length });
   console.log({ accuracy });
 };
 
@@ -39,7 +39,7 @@ const getMatchingPairs = (szzResults, bugDatabase) =>
 const filterDuplicatedPairs = (pairs) => {
   const uniquePairsMap = new Map();
   pairs.forEach((pair) =>
-    uniquePairsMap.set(pair.bugFixingId + pair.bugInducingId, {
+    uniquePairsMap.set(pair.bugFixCommitId + pair.bugIntroducerCommitId, {
       ...pair,
     })
   );
