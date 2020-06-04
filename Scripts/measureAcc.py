@@ -41,9 +41,12 @@ def main(repoName):
 
     notMatched = netoData.copy()
     notMatchedWithFile = netoData.copy()
+    notMatchedFixes = netoData.copy()
 
     # Iterate over szz results
     for unl in szzData:
+        notMatchedFixes = pipe(
+            notMatchedFixes, filter(lambda x: not (x[0] == unl[0])), list)
 
         notMatched = pipe(
             notMatched, filter(lambda x: not (x[0] == unl[0] and x[1] == unl[1])), list)
@@ -54,7 +57,30 @@ def main(repoName):
 
     acc = (len(netoData) - len(notMatched)) / len(netoData)
     accWFile = (len(netoData) - len(notMatchedWithFile)) / len(netoData)
+    accFixes = (len(netoData) - len(notMatchedFixes)) / len(netoData)
 
+    print('Test how many in Neto are matched')
+    print(f'fixes matched: {accFixes}')
+    print(f'acc: {acc}')
+    print(f'acc with file: {accWFile}')
+
+    # Test how many matches in ra-unleashed are correct
+    notMatched = szzData.copy()
+    notMatchedWithFile = szzData.copy()
+
+    for res in netoData:
+        notMatched = pipe(
+            notMatched, filter(lambda x: not (x[0] == res[0] and x[1] == res[1])), list)
+
+        if len(szzData[0]) > 2:
+            notMatchedWithFile = pipe(
+                notMatchedWithFile, filter(lambda x: not (x[0] == res[0] and x[1] == res[1] and res[2].endswith(x[2]))), list)
+
+    acc = (len(szzData) - len(notMatched)) / len(szzData)
+    accWFile = (len(szzData) - len(notMatchedWithFile)) / len(szzData)
+
+    print()
+    print('Test how many in ra-unleashed are matched')
     print(f'acc: {acc}')
     print(f'acc with file: {accWFile}')
 

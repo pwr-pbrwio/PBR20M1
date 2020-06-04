@@ -62,6 +62,7 @@ import util.JSONUtil;
 public class GitParser {
   private final int TWO_YEARS_IN_SEC = 61516800;
   private final String filePattern = ".*\\.java";
+  private final String  uselessDeletionPattern = "\\s*\\/\\/.*|\\s*\\*.*|\\s*\\/\\*.*";
 
   private CommitUtil util;
   private Repository repo;
@@ -162,6 +163,10 @@ public class GitParser {
     }
   }
 
+  private boolean filterUselessChanges(String l1) {
+    return !l1.matches(uselessDeletionPattern);
+  }
+
   /**
    * Traces a file change that have occured before a given commmit.
    *
@@ -184,7 +189,7 @@ public class GitParser {
 
     List<Integer> delIndexes = null;
     if (source.diffWithParent.containsKey(filePath))
-      delIndexes = source.diffWithParent.get(filePath).deletions.stream().map(s -> parseInt(s[0]))
+      delIndexes = source.diffWithParent.get(filePath).deletions.stream().filter(d -> filterUselessChanges(d[1])).map(s -> parseInt(s[0]))
           .filter(l -> refsForFile == null || !refsForFile.contains(l))
           .collect(Collectors.toList());
     else
