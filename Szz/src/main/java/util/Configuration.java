@@ -36,6 +36,8 @@ import org.slf4j.Logger;
  */
 public class Configuration {
 
+  private final int TWO_YEARS_IN_SEC = 61516800;
+
   private static Configuration instance = null;
 
   private int depth = 3;
@@ -52,6 +54,11 @@ public class Configuration {
 
   public String helpHeader = "Commandline options for the SZZ algorithm.";
   public String helpFooter = "The results will be produced in ./results";
+
+  private int maxDaysBetweenCommits = TWO_YEARS_IN_SEC;
+  private String filePattern = ".*\\.java";
+  private String uselessLinePattern = "\\s*\\/\\/.*|\\s*\\*.*|\\s*\\/\\*.*";
+  private boolean ra = false;
 
   protected Configuration() {}
 
@@ -126,6 +133,23 @@ public class Configuration {
 
     if (cmd.hasOption("olt")) {
       instance.setOmitLineText(true);
+    }
+
+    if (cmd.hasOption("ra")) {
+      instance.ra = true;
+    }
+
+    if (cmd.hasOption("up")) {
+      instance.uselessLinePattern = cmd.getOptionValue("up");
+    }
+
+    if (cmd.hasOption("fp")) {
+      System.out.println("File pattern: \"" + cmd.getOptionValue("fp") + "\"");
+      instance.filePattern = cmd.getOptionValue("fp");
+    }
+
+    if (cmd.hasOption("mt")) {
+      instance.maxDaysBetweenCommits = Integer.parseInt(cmd.getOptionValue("mt"));
     }
 
     return instance;
@@ -211,6 +235,22 @@ public class Configuration {
     this.omitLineText = omitLineText;
   }
 
+  public int getMaxDaysBetweenCommits() {
+    return maxDaysBetweenCommits;
+  }
+
+  public String getFilePattern() {
+    return filePattern;
+  }
+
+  public String getUselessLinePattern() {
+    return uselessLinePattern;
+  }
+
+  public boolean isRa() {
+    return ra;
+  }
+
   private static Options getCMDOptions() {
     Options options = new Options();
 
@@ -256,6 +296,31 @@ public class Configuration {
         new Option("olt", false, "Only output the line numbers in the annotation graph.");
     omitLineTextOption.setRequired(false);
     options.addOption(omitLineTextOption);
+
+    Option filePatternOption = new Option(
+            "fp",
+            true,
+            "Specify the pattern that must be matched by analyzed files. Defaults to\".*\\.java\"");
+    partialFixPatternOption.setRequired(false);
+    options.addOption(filePatternOption);
+
+    Option uselessPatternOption = new Option(
+            "up",
+            true,
+            "Specify pattern ignored when searching for deleted lines. Defaults to\"\\s*\\/\\/.*|\\s*\\*.*|\\s*\\/\\*.*\"");
+    partialFixPatternOption.setRequired(false);
+    options.addOption(uselessPatternOption);
+
+    Option timePatternOption = new Option(
+            "mt",
+            true,
+            "Maximum time between commits in days. Defaults to 61516800 which is 2 years");
+    partialFixPatternOption.setRequired(false);
+    options.addOption(timePatternOption);
+
+    Option raOption = new Option("ra", false, "Use refactoring aware");
+    help_option.setRequired(false);
+    options.addOption(raOption);
 
     return options;
   }

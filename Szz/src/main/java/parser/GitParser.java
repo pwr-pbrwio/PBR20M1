@@ -46,12 +46,8 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 import org.slf4j.Logger;
 import util.CommitUtil;
+import util.Configuration;
 import util.JSONUtil;
-
-//import refdiff.core.RefDiff;
-//import refdiff.core.rm2.model.refactoring.SDRefactoring;
-//import refdiff.core.api.GitService;
-//import refdiff.core.util.GitServiceImpl;
 
 /**
  * A class which is capable to search and build line mapping graphs from a local
@@ -60,13 +56,11 @@ import util.JSONUtil;
  * @author Oscar Svensson
  */
 public class GitParser {
-  private final int TWO_YEARS_IN_SEC = 61516800;
-  private final String filePattern = ".*\\.java";
-  private final String  uselessDeletionPattern = "\\s*\\/\\/.*|\\s*\\*.*|\\s*\\/\\*.*";
+  private final Configuration config = Configuration.getInstance();
 
   private CommitUtil util;
   private Repository repo;
-//  private Repository repo2;
+
   private static int rid = 0;
   private Issues issues;
 
@@ -164,7 +158,14 @@ public class GitParser {
   }
 
   private boolean filterUselessChanges(String l1) {
-    return !l1.matches(uselessDeletionPattern);
+    return !l1.matches(config.getUselessLinePattern());
+  }
+
+  private List<Integer> getRefsForFile(String filePath, Commit source) throws Exception {
+    if (!config.isRa()) return null;
+
+    Map<String, List<Integer>> refs = Miner.getRefactoringLines(repo, source.getHashString());
+    return refs.get(filePath);
   }
 
   /**
@@ -184,8 +185,7 @@ public class GitParser {
     /*
      * Save all line numbers for the source commits deletions.
      */
-    Map<String, List<Integer>> refs = Miner.getRefactoringLines(repo, source.getHashString());
-    List<Integer> refsForFile = refs.get(filePath);
+    List<Integer> refsForFile = getRefsForFile(filePath, source);
 
     List<Integer> delIndexes = null;
     if (source.diffWithParent.containsKey(filePath))
@@ -249,7 +249,8 @@ public class GitParser {
       String revSha = ObjectId.toString(rev.getKey().toObjectId());
 
       // If bug introducer is more than two years older than fix ignore it
-      if (Math.abs(rev.getKey().getCommitTime() - source.commit.getCommitTime()) < TWO_YEARS_IN_SEC) {
+      if (config.getMaxDaysBetweenCommits() < 0 ||
+              Math.abs(rev.getKey().getCommitTime() - source.commit.getCommitTime()) < config.getMaxDaysBetweenCommits()) {
         if (!graph.mappings.containsKey(revSha) ) {
             graph.revisions.add(revSha);
             graph.mappings.put(revSha, rev.getValue());
@@ -299,7 +300,7 @@ public class GitParser {
       logger.info(String.format("Iteration %s of %s", iterations++, commits.size()));
       List<FileAnnotationGraph> graphs = new LinkedList<>();
       for (Map.Entry<String, DiffEntry.ChangeType> file : commit.changeTypes.entrySet()) {
-        if (file.getKey().matches(filePattern)) {
+        if (file.getKey().matches(config.getFilePattern())) {
           FileAnnotationGraph tracedCommits = traceFileChanges(file.getKey(), commit, this.depth);
 
           graphs.add(tracedCommits);
