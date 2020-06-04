@@ -21,7 +21,7 @@ def find_bug_fixes(issue_path, gitlog_path, gitlog_pattern):
         gitlog = json.loads(f.read())
 
     for key in issue_list:
-        nbr = key.split('-')[1]
+        nbr = key.split('-')[1] if '-' in key else key
         matches = []
 
         for commit in gitlog:
