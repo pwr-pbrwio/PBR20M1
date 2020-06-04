@@ -1,12 +1,11 @@
 import requests
 import json
 import os
+import datetime
 
 token = r'INSERT_GITHUB_TOKEN_HERE'
 headers = {'Authorization': 'token {}'.format(token)}
 
-REPO_NAME = 'mockito'
-REPO_OWNER = 'mockito'
 
 FIRST_PAGE_ISSUES_QUERY = """
 query ($REPO_OWNER: String!, $REPO_NAME: String!) {
@@ -76,6 +75,11 @@ def getRequestBody(cursor):
     return ISSUES_QUERY_TEMPLATE
 
 
+def formatDate(date):
+    date = datetime.datetime.strptime(date, "%Y-%m-%dT%H:%M:%S%z")
+    return date.strftime("%Y-%m-%d %H:%M:%S %z")
+
+
 def fetch(repoOwner, repoName, outputPath):
     print(repoOwner, repoName, outputPath)
     issuesList = []
@@ -83,8 +87,8 @@ def fetch(repoOwner, repoName, outputPath):
         issuesList.append({
             'key': str(issue['number']),
             'fields': {
-                'created': issue['createdAt'],
-                'resolutiondate': issue['closedAt']
+                'created': formatDate(issue['createdAt']),
+                'resolutiondate': formatDate(issue['closedAt'])
             }
         })
 
