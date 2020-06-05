@@ -47,8 +47,8 @@ if __name__ == "__main__":
         else:
             raise Exception('Invalid fetch strategy!')
 
-        # sha = getFirstSha(owner, repo)
-        # git_log_to_json(sha, repoPath, '.temp')
+        sha = getFirstSha(owner, repo)
+        git_log_to_json(sha, repoPath, '.temp')
         issue_list = find_bug_fixes('.temp/fetch_issues', '.temp/gitlog.json',
                                     r'{tag}-{{nbr}}\D|#{{nbr}}\D'.format(tag=tag.upper()))
 
