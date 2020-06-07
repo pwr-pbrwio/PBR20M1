@@ -27,6 +27,8 @@ if __name__ == "__main__":
                         help="Jira tag.")
     parser.add_argument('--fetchStrategy', type=str,
                         help="Issues fetch strategy.")
+    parser.add_argument('--bugLabel', type=str,
+                        help="Issue label filter for github issue fetch strategy.")
 
     data = []
     with open(csvPath, newline='', encoding="utf-8") as csvfile:
@@ -49,11 +51,13 @@ if __name__ == "__main__":
         owner = args.owner
         tag = args.tag
         issueFetchingStrategy = 'jira' if args.fetchStrategy == None else args.fetchStrategy
-
+        bugLabelName = 'bug' if args.bugLabel == None else args.bugLabel
+        
         os.makedirs('.temp', exist_ok=True)
 
         if issueFetchingStrategy == 'github':
-            github_issue_fetcher(owner, repo, '.temp/fetch_issues')
+            github_issue_fetcher(
+                owner, repo, '.temp/fetch_issues', bugLabelName)
         elif issueFetchingStrategy == 'jira':
             jira_issue_fetcher(tag, jira, '.temp/fetch_issues')
         else:
@@ -71,6 +75,9 @@ if __name__ == "__main__":
                 toSave[key] = issue
 
         issue_list = toSave
+
+        print(
+            f"Issues matched after Neto database filtering: {len(issue_list)}")
 
         with open('.temp/issue_list.json', 'w', encoding="utf8") as f:
             f.write(json.dumps(issue_list))

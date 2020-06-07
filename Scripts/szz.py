@@ -28,6 +28,8 @@ if __name__ == "__main__":
                         help="Szz depth.")
     parser.add_argument('--fetchStrategy', type=str,
                         help="Issues fetch strategy.")
+    parser.add_argument('--bugLabel', type=str,
+                        help="Issue label filter for github issue fetch strategy.")
 
     try:
         args = parser.parse_args()
@@ -38,10 +40,12 @@ if __name__ == "__main__":
         tag = args.tag
         depth = 3 if args.depth == None else args.depth
         issueFetchingStrategy = 'jira' if args.fetchStrategy == None else args.fetchStrategy
+        bugLabelName = 'bug' if args.bugLabel == None else args.bugLabel
 
         os.makedirs('.temp', exist_ok=True)
         if issueFetchingStrategy == 'github':
-            github_issue_fetcher(owner, repo, '.temp/fetch_issues')
+            github_issue_fetcher(
+                owner, repo, '.temp/fetch_issues', bugLabelName)
         elif issueFetchingStrategy == 'jira':
             jira_issue_fetcher(tag, jira, '.temp/fetch_issues')
         else:
