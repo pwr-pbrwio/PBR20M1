@@ -3,7 +3,8 @@ import argparse
 import json
 import csv
 
-from unleashed.fetch import fetch
+from github_issue_client import fetch as github_issue_fetcher
+from unleashed.fetch import fetch as jira_issue_fetcher
 from unleashed.git_log_to_array import git_log_to_json
 from unleashed.find_bug_fixes import find_bug_fixes
 
@@ -24,6 +25,8 @@ if __name__ == "__main__":
                         help="Repo name.")
     parser.add_argument('--tag', type=str,
                         help="Jira tag.")
+    parser.add_argument('--fetchStrategy', type=str,
+                        help="Issues fetch strategy.")
 
     data = []
     with open(csvPath, newline='', encoding="utf-8") as csvfile:
@@ -45,9 +48,16 @@ if __name__ == "__main__":
         repo = args.repo
         owner = args.owner
         tag = args.tag
+        issueFetchingStrategy = 'jira' if args.fetchStrategy == None else args.fetchStrategy
 
         os.makedirs('.temp', exist_ok=True)
-        fetch(tag, jira, '.temp/fetch_issues')
+
+        if issueFetchingStrategy == 'github':
+            github_issue_fetcher(owner, repo, '.temp/fetch_issues')
+        elif issueFetchingStrategy == 'jira':
+            jira_issue_fetcher(tag, jira, '.temp/fetch_issues')
+        else:
+            raise Exception('Invalid fetch strategy!')
 
         sha = getFirstSha(owner, repo)
         git_log_to_json(sha, repoPath, '.temp')
