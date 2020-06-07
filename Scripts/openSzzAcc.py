@@ -64,13 +64,14 @@ def main(repoName):
             notMatchedWithFile = pipe(
                 notMatchedWithFile, filter(lambda x: not (x[0] == unl[0] and x[1] == unl[1] and x[2].endswith(unl[2]))), list)
 
-    acc = (len(netoData) - len(notMatched)) / len(netoData)
-    accWFile = (len(netoData) - len(notMatchedWithFile)) / len(netoData)
-    accFixes = (len(netoData) - len(notMatchedFixes)) / len(netoData)
+    acc = (len(netoData) - len(notMatched))
+    accWFile = (len(netoData) - len(notMatchedWithFile))
+    accFixes = (len(netoData) - len(notMatchedFixes))
 
     print(f'fixes matched: {accFixes}')
     print(f'acc: {acc}')
     print(f'acc with file: {accWFile}')
+    print(f'size: {len(netoData)}')
 
     # Test how many matches in ra-unleashed are correct
     notMatched = openData.copy()
@@ -84,13 +85,17 @@ def main(repoName):
             notMatchedWithFile = pipe(
                 notMatchedWithFile, filter(lambda x: not (x[0] == res[0] and x[1] == res[1] and res[2].endswith(x[2]))), list)
 
-    acc = (len(openData) - len(notMatched)) / len(openData)
-    accWFile = (len(openData) - len(notMatchedWithFile)) / len(openData)
+    acc = (len(openData) - len(notMatched))
+    accWFile = (len(openData) - len(notMatchedWithFile))
 
     print()
     print('Test how many in openSzz are matched')
     print(f'acc: {acc}')
     print(f'acc with file: {accWFile}')
+    print(f'size: {len(openData)}')
+
+    print(openData[0])
+    print(netoData[0])
 
 
 if __name__ == "__main__":
