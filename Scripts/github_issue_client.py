@@ -8,9 +8,9 @@ headers = {'Authorization': 'token {}'.format(token)}
 
 
 FIRST_PAGE_ISSUES_QUERY = """
-query ($REPO_OWNER: String!, $REPO_NAME: String!) {
+query ($REPO_OWNER: String!, $REPO_NAME: String!, $BUG_LABEL: String!) {
   repository (owner: $REPO_OWNER, name: $REPO_NAME) {
-    issues (states: [CLOSED], labels: ["bug"], first: 100) {
+    issues (states: [CLOSED], labels: [$BUG_LABEL], first: 100) {
 		nodes {
             number
             createdAt
@@ -24,9 +24,9 @@ query ($REPO_OWNER: String!, $REPO_NAME: String!) {
 }"""
 
 ISSUES_QUERY_TEMPLATE = """
-query ($REPO_OWNER: String!, $REPO_NAME: String!, $END_CURSOR: String!) {
+query ($REPO_OWNER: String!, $REPO_NAME: String!, $END_CURSOR: String!, $BUG_LABEL: String!) {
   repository (owner: $REPO_OWNER, name: $REPO_NAME) {
-    issues (states: [CLOSED], labels: ["bug"], first: 100, after: $END_CURSOR) {
+    issues (states: [CLOSED], labels: [$BUG_LABEL], first: 100, after: $END_CURSOR) {
 		nodes {
             number
             createdAt
@@ -42,23 +42,25 @@ query ($REPO_OWNER: String!, $REPO_NAME: String!, $END_CURSOR: String!) {
 GITHUB_API_ENDPOINT = 'https://api.github.com/graphql'
 
 
-def fetchAllIssues(repoOwner, repoName):
+def fetchAllIssues(repoOwner, repoName, bugLabelName):
     allIssues = []
-    issuesPage = fetchIssuesPage(repoOwner, repoName)
+    issuesPage = fetchIssuesPage(repoOwner, repoName, bugLabelName)
     while len(issuesPage['nodes']) > 0:
         cursor = issuesPage['pageInfo']['endCursor']
         allIssues += issuesPage['nodes']
-        issuesPage = fetchIssuesPage(repoOwner, repoName, cursor=cursor)
+        issuesPage = fetchIssuesPage(
+            repoOwner, repoName, bugLabelName, cursor=cursor)
 
     return allIssues
 
 
-def fetchIssuesPage(repoOwner, repoName, cursor=None):
+def fetchIssuesPage(repoOwner, repoName, bugLabelName, cursor=None):
     query = getRequestBody(cursor=cursor)
     variables = {
         'REPO_OWNER': repoOwner,
         'REPO_NAME': repoName,
-        'END_CURSOR': cursor
+        'END_CURSOR': cursor,
+        'BUG_LABEL': bugLabelName
     }
     body = {
         'query': query,
@@ -80,10 +82,9 @@ def formatDate(date):
     return date.strftime("%Y-%m-%d %H:%M:%S %z")
 
 
-def fetch(repoOwner, repoName, outputPath):
-    print(repoOwner, repoName, outputPath)
+def fetch(repoOwner, repoName, outputPath, bugLabelName):
     issuesList = []
-    for issue in fetchAllIssues(repoOwner, repoName):
+    for issue in fetchAllIssues(repoOwner, repoName, bugLabelName):
         issuesList.append({
             'key': str(issue['number']),
             'fields': {
