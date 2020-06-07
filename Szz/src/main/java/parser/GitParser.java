@@ -158,7 +158,10 @@ public class GitParser {
   }
 
   private boolean filterUselessChanges(String l1) {
-    return !l1.matches(config.getUselessLinePattern());
+    String pattern = config.getUselessLinePattern();
+    if (pattern == null) return true;
+
+    return !l1.matches(pattern);
   }
 
   private List<Integer> getRefsForFile(String filePath, Commit source) throws Exception {
@@ -227,7 +230,7 @@ public class GitParser {
       if (index == -1)
         continue;
       try {
-        RevCommit foundRev = found.getSourceCommit(index);
+        RevCommit foundRev = found.getSourceCommit(config.isUsingFix() ? index : i);
 
         if (!foundRevisions.containsKey(foundRev)) {
           Map<Integer, Integer> blamedLines = new LinkedHashMap<>();
