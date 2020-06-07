@@ -10,7 +10,7 @@ from unleashed.find_bug_fixes import find_bug_fixes
 
 from pbr.getFirstSha import getFirstSha
 
-csvPath = os.path.dirname(__file__) + '/git_neto.csv'
+csvPath = os.path.join(os.path.dirname(__file__), 'git_neto.csv')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(

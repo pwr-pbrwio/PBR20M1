@@ -3,7 +3,7 @@ import os
 import csv
 import argparse
 
-netoPath = os.path.dirname(__file__) + '/git_neto.csv'
+netoPath = os.path.join(os.path.dirname(__file__), 'git_neto.csv')
 openPath = './BugInducingCommits.csv'
 
 

@@ -4,7 +4,7 @@ import json
 import os
 import argparse
 
-netoPath = os.path.dirname(__file__) + '/git_neto.csv'
+netoPath = os.path.join(os.path.dirname(__file__), 'git_neto.csv')
 unleashPath = './results/fix_and_introducers_pairs.json'
 
 
