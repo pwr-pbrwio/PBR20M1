@@ -48,6 +48,10 @@ def main(repoName):
                  x['pathbugfix']) for x in netoData]
     netoData = list(dict.fromkeys(netoData))
 
+    # Filter open data for neto fixes
+    netoFixes = pipe(netoData, map(lambda x: x[0]), list)
+    openData = pipe(openData, filter(lambda x: x[0] in netoFixes), list)
+
     notMatched = netoData.copy()
     notMatchedWithFile = netoData.copy()
     notMatchedFixes = netoData.copy()
@@ -81,7 +85,7 @@ def main(repoName):
         notMatched = pipe(
             notMatched, filter(lambda x: not (x[0] == res[0] and x[1] == res[1])), list)
 
-        if len(openData[0]) > 2:
+        if len(openData) > 0 and len(openData[0]) > 2:
             notMatchedWithFile = pipe(
                 notMatchedWithFile, filter(lambda x: not (x[0] == res[0] and x[1] == res[1] and res[2].endswith(x[2]))), list)
 
@@ -93,9 +97,6 @@ def main(repoName):
     print(f'acc: {acc}')
     print(f'acc with file: {accWFile}')
     print(f'size: {len(openData)}')
-
-    print(openData[0])
-    print(netoData[0])
 
 
 if __name__ == "__main__":
