@@ -49,10 +49,10 @@ if __name__ == "__main__":
         jira = args.jira
         repo = args.repo
         owner = args.owner
-        tag = args.tag
+        tag = '' if args.tag == None else args.tag
         issueFetchingStrategy = 'jira' if args.fetchStrategy == None else args.fetchStrategy
         bugLabelName = 'bug' if args.bugLabel == None else args.bugLabel
-        
+
         os.makedirs('.temp', exist_ok=True)
 
         if issueFetchingStrategy == 'github':

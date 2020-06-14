@@ -1,0 +1,51 @@
+# Research reproduction
+
+## Dependencies
++ git
++ java
++ gradle
++ python 3
+
+## Steps to reproduce
+Prepare szz
+```
+git clone https://github.com/pwr-pbrwio/PBR20M1
+cd PBR20M1/SZZ
+gradle build
+gradle fatjar
+cd  ../..
+```
+Get repository from data set (example of commons-lang)
+```
+mkdir commons-lang
+cd commons-lang
+git clone https://github.com/apache/commons-lang.git
+```
+Download project issues (filtered with data set)
+If using Jira as issue tracker
+```
+python ..\PBR20M1\Scripts\getNetoIssuesJira.py --owner "apache" --repo "commons-lang" --tag "lang" --repoPath "./commons-lang" --jira "issues.apache.org/jira"
+```
+If using Github as issue tracker (mockito as example)
+```
+python ..\PBR20M1\Scripts\getNetoIssuesJira.py --owner "mockito" --repo "mockito" --repoPath "./mockito" --fetchStrategy github
+```
+Run szz algorithm
+```
+java -jar "..\PBR20M1\Szz\build\libs\szz_find_bug_introducers-0.1.jar" -i ".temp/issue_list.json" -r
+".\commons-lang" -d=3  -fix -ra -up -mt
+```
+Where flags -fix -ra -up -mt are optional
+-fix enables fix
+-ra runs SZZ with refactoring awareness
+-up removes comments
+-mt limits time between commits to 2 years
+
+Get results
+```
+python ..\PBR20M1\Scripts\measurePos.py --repoName="commons-lang"
+```
+Or for OpenSZZ
+```
+python ..\PBR20M1\Scripts\openSzzAcc.py --repoName="commons-lang"
+```
