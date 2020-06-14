@@ -20,11 +20,11 @@ git clone https://github.com/apache/commons-lang.git
 Download project issues (filtered with data set)
 If using Jira as issue tracker
 ```
-python ..\PBR20M1\Scripts\getNetoIssuesJira.py --owner "apache" --repo "commons-lang" --tag "lang" --repoPath "./commons-lang" --jira "issues.apache.org/jira"
+python3 ../PBR20M1/Scripts/getNetoIssuesJira.py --owner "apache" --repo "commons-lang" --tag "lang" --repoPath "./commons-lang" --jira "issues.apache.org/jira"
 ```
 If using Github as issue tracker (mockito as example)
 ```
-python ..\PBR20M1\Scripts\getNetoIssuesJira.py --owner "mockito" --repo "mockito" --repoPath "./mockito" --fetchStrategy github
+python3 ..\PBR20M1\Scripts\getNetoIssuesJira.py --owner "mockito" --repo "mockito" --repoPath "./mockito" --fetchStrategy github
 ```
 Run szz algorithm
 ```
