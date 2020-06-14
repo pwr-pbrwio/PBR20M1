@@ -2,18 +2,14 @@
 
 ## Dependencies
 + git
-+ java
-+ gradle
++ java 8
++ gradle 6.3
 + python 3
 
 ## Steps to reproduce
 Prepare szz
 ```
 git clone https://github.com/pwr-pbrwio/PBR20M1
-cd PBR20M1/SZZ
-gradle build
-gradle fatjar
-cd  ../..
 ```
 Get repository from data set (example of commons-lang)
 ```
@@ -32,14 +28,15 @@ python ..\PBR20M1\Scripts\getNetoIssuesJira.py --owner "mockito" --repo "mockito
 ```
 Run szz algorithm
 ```
-java -jar "..\PBR20M1\Szz\build\libs\szz_find_bug_introducers-0.1.jar" -i ".temp/issue_list.json" -r
-".\commons-lang" -d=3  -fix -ra -up -mt
+java -jar "..\PBR20M1\Scripts\unleashed\szz.jar" -i ".temp/issue_list.json" -r
+".\commons-lang" -d=3  -fix -ra -up -mt -fp
 ```
 Where flags -fix -ra -up -mt are optional
 -fix enables fix
 -ra runs SZZ with refactoring awareness
 -up removes comments
 -mt limits time between commits to 2 years
+-fp limits SZZ to .java files
 
 Get results
 ```
