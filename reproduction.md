@@ -5,10 +5,10 @@
 + java 8
 + python 3
 
-## Dependencies installation (windows)
+## Dependencies installation (windows and macos)
 Download and install dependencies:
 + git: https://git-scm.com/
-+ java: https://developers.redhat.com/products/openjdk/download?extIdCarryOver=true&sc_cid=701f2000001OH7EAAW
++ java: https://www.oracle.com/java/technologies/javase-jre8-downloads.html
 + python: https://www.python.org/
 
 ## Dependencies installation(linux)
