@@ -3,7 +3,6 @@
 ## Dependencies
 + git
 + java 8
-+ gradle 6.3
 + python 3
 
 ## Steps to reproduce
