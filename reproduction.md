@@ -93,7 +93,8 @@ The following software is required:
     ```
 
 4. Follow the [OpenSZZ readme file](https://github.com/clowee/OpenSZZ-Cloud-Native) for instructions on starting the application and running repositories.
-5. Analyse results
+5. Rename results to BugInducingCommits.csv
+6. Analyse results
 
     ```bash
     python3 ../PBR20M1/Scripts/openSzzAcc.py --repoName="commons-lang"
