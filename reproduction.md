@@ -30,6 +30,7 @@ Prepare szz
 git clone https://github.com/pwr-pbrwio/PBR20M1
 cd PBR20M1
 pip3 install -r requirements.txt
+cd ..
 ```
 Get repository from data set (example of commons-lang)
 ```
