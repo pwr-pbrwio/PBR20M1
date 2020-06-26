@@ -4,7 +4,7 @@ githubRepoUrl = r'https://api.github.com/repos/{owner}/{repo}'
 # githubCommitsUrl = r'https://api.github.com/repos/{owner}/{repo}/commits?per_page=1&page=1&until={until}'
 githubCommitsUrl = r'https://api.github.com/repos/{owner}/{repo}/commits?per_page=1&page=1&until=2020-01-01T00:00:00Z'
 
-with open(os.path.realpath(os.path.join(os.path.dirname(__file__), '../../token.txt'))) as tokenFile:
+with open(os.path.realpath(os.path.join(os.path.dirname(__file__), '../token.txt'))) as tokenFile:
     token = tokenFile.readline()
 
 headers = None if token == r'INSERT_GITHUB_TOKEN_HERE' else {
