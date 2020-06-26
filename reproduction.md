@@ -10,9 +10,9 @@
 
 Download and install dependencies:
 
-+ git: https://git-scm.com/
-+ java: https://www.oracle.com/java/technologies/javase-jre8-downloads.html
-+ python: https://www.python.org/
++ git: <https://git-scm.com/>
++ java: <https://www.oracle.com/java/technologies/javase-jre8-downloads.html>
++ python: <https://www.python.org/>
 
 ## Dependencies installation(linux)
 
