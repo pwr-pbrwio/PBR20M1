@@ -1,9 +1,8 @@
 const fse = require("fs-extra");
 const csv = require("csvtojson");
 
-const PROJECT_NAME = "commons-math";
-const DATA_INPUT_FILE = "./fix_and_introducers_pairs.json";
-const DEFECTS4J_INPUT_FILE = "./d4j.csv";
+const DATA_INPUT_FILE = "./data/input/commons-compress-d3.json";
+const DEFECTS4J_INPUT_FILE = "./bugs_dataset.csv";
 
 const main = async () => {
   const [szzResults, bugDb] = await Promise.all([
@@ -13,33 +12,13 @@ const main = async () => {
 
   const uniqueSzzResults = filterDuplicatedPairs(szzResults);
 
-  const matchingPairs = getMatchingPairs(uniqueSzzResults, bugDb);
-  const szzFixes = szzResults.map(b => b.bugFixCommitId);
-  const d4jFixes = bugDb.map(b => b.bugfix_commit);
-
-  let c = 0;
-  let c2 = 0;
-  console.log(szzResults);
-  
-  // for (let i of szzFixes) {
-  //   console.log(i);
-    
-  //   if (d4jFixes.includes(i)) {
-  //     c++;
-  //     console.log(i);
-  //     const si = szzFixes.indexOf(i);
-  //     const di = d4jFixes.indexOf(i);
-  //     // console.log(si, di);
-  //     console.log(szzResults[si].bugIntroducerCommitId, bugDb[di].bugintroducingchange_commit);
-  //   }
-  // }
-  // console.log(c);
-  // console.log(c2);
-  for (let i of szzResults) {
-    const fa = bugDb.filter(b => b.bugfix_commit == i.bugFixCommitId);
-    console.log(fa);
-    console.log(i.bugIntroducerCommitId);
-  }
+  const matchedPairs = getMatchingPairs(szzResults, bugDb);
+  const accuracy = calculateAccuracy(
+    matchedPairs.length,
+    uniqueSzzResults.length
+  );
+  console.log({ matchedPairs: matchedPairs.length });
+  console.log({ accuracy });
 };
 
 const calculateAccuracy = (matchedCasesCount, allCasesCount) =>
@@ -52,7 +31,7 @@ const getMatchingPairs = (szzResults, bugDatabase) =>
   bugDatabase.filter((record) =>
     szzResults.some(
       (result) =>
-        // record.bugintroducingchange_commit === result.bugIntroducerCommitId &&
+        record.bugintroducingchange_commit === result.bugIntroducerCommitId &&
         record.bugfix_commit === result.bugFixCommitId
     )
   );
