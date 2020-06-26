@@ -1,9 +1,10 @@
+# Downloads issues from issue tracker and fiters it using data set
 import os
 import argparse
 import json
 import csv
 
-from github_issue_client import fetch as github_issue_fetcher
+from pbr.github_issue_client import fetch as github_issue_fetcher
 from unleashed.fetch import fetch as jira_issue_fetcher
 from unleashed.git_log_to_array import git_log_to_json
 from unleashed.find_bug_fixes import find_bug_fixes

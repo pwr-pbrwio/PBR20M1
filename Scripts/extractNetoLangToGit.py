@@ -1,9 +1,10 @@
-# %%
+# Script migrating Neto data set from SVN to github
+# To run you will need github token
 import requests
 import csv
 
 csvPath = './dataset_bugfix_bic.csv'
-token = r'0455c74c0739a904b7387de39f57ac5ac65d6744'
+token = r'INSERT_GITHUB_TOKEN_HERE'
 REPO_NAME = 'commons-lang'
 REPO_OWNER = 'apache'
 
@@ -99,6 +100,3 @@ with open('out.csv', 'w', encoding='utf-8') as f:
             f.write(f'{w}\n')
 
     print(f'Mach not found for: {mismatchCount}')
-
-
-# %%

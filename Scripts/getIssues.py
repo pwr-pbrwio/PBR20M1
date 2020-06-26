@@ -1,3 +1,4 @@
+# Alternative to getNetoIssues that does not filter out results by data set
 import os
 import argparse
 import json
