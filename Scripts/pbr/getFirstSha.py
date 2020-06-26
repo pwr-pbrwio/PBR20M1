@@ -1,12 +1,14 @@
-# %%
 import requests
 
-token = r'INSERT_GITHUB_TOKEN_HERE'
 githubRepoUrl = r'https://api.github.com/repos/{owner}/{repo}'
 # githubCommitsUrl = r'https://api.github.com/repos/{owner}/{repo}/commits?per_page=1&page=1&until={until}'
 githubCommitsUrl = r'https://api.github.com/repos/{owner}/{repo}/commits?per_page=1&page=1&until=2020-01-01T00:00:00Z'
 
-headers = {'Authorization': 'token {}'.format(token)}
+with open(os.path.realpath(os.path.join(os.path.dirname(__file__), '../../token.txt'))) as tokenFile:
+    token = tokenFile.readline()
+
+headers = None if token == r'INSERT_GITHUB_TOKEN_HERE' else {
+    'Authorization': 'token {}'.format(token)}
 
 
 def getCreationDate(owner, repo):
@@ -30,5 +32,3 @@ def getFirstSha(owner, repo):
         raise ValueError('Failed to fetch first commit of {}'.format(repo))
 
     return data[0]['sha']
-
-# %%

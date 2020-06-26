@@ -45,7 +45,7 @@ python3 ../PBR20M1/Scripts/getNetoIssues.py --owner "apache" --repo "commons-lan
 ```
 If using Github as issue tracker (mockito as example)
 ```
-python3 ..\PBR20M1\Scripts\getNetoIssues.py --owner "mockito" --repo "mockito" --repoPath "./mockito" --fetchStrategy github
+python3 ../PBR20M1/Scripts/getNetoIssues.py --owner "mockito" --repo "mockito" --repoPath "./mockito" --fetchStrategy github
 ```
 Run szz algorithm
 ```

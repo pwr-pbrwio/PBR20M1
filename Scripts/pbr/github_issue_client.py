@@ -2,9 +2,13 @@ import requests
 import json
 import os
 import datetime
+import token
 
-token = r'INSERT_GITHUB_TOKEN_HERE'
-headers = {'Authorization': 'token {}'.format(token)}
+with open(os.path.realpath(os.path.join(os.path.dirname(__file__), '../../token.txt'))) as tokenFile:
+    token = tokenFile.readline()
+
+headers = None if token == r'INSERT_GITHUB_TOKEN_HERE' else {
+    'Authorization': 'token {}'.format(token)}
 
 
 FIRST_PAGE_ISSUES_QUERY = """

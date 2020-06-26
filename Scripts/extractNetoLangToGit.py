@@ -4,11 +4,14 @@ import requests
 import csv
 
 csvPath = './dataset_bugfix_bic.csv'
-token = r'INSERT_GITHUB_TOKEN_HERE'
 REPO_NAME = 'commons-lang'
 REPO_OWNER = 'apache'
 
-headers = {'Authorization': 'token {}'.format(token)}
+with open(os.path.realpath(os.path.join(os.path.dirname(__file__), '../token.txt'))) as tokenFile:
+    token = tokenFile.readline()
+
+headers = None if token == r'INSERT_GITHUB_TOKEN_HERE' else {
+    'Authorization': 'token {}'.format(token)}
 
 
 def buildRepoUrl(repo, page):

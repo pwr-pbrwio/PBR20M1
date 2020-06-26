@@ -44,44 +44,44 @@ if __name__ == "__main__":
             data.append(dict(z))
     data = list(map(lambda x: x['bugfix_commit'], data))
 
-    try:
-        args = parser.parse_args()
-        repoPath = args.repoPath
-        jira = args.jira
-        repo = args.repo
-        owner = args.owner
-        tag = '' if args.tag == None else args.tag
-        issueFetchingStrategy = 'jira' if args.fetchStrategy == None else args.fetchStrategy
-        bugLabelName = 'bug' if args.bugLabel == None else args.bugLabel
+    # try:
+    args = parser.parse_args()
+    repoPath = args.repoPath
+    jira = args.jira
+    repo = args.repo
+    owner = args.owner
+    tag = '' if args.tag == None else args.tag
+    issueFetchingStrategy = 'jira' if args.fetchStrategy == None else args.fetchStrategy
+    bugLabelName = 'bug' if args.bugLabel == None else args.bugLabel
 
-        os.makedirs('.temp', exist_ok=True)
+    os.makedirs('.temp', exist_ok=True)
 
-        if issueFetchingStrategy == 'github':
-            github_issue_fetcher(
-                owner, repo, '.temp/fetch_issues', bugLabelName)
-        elif issueFetchingStrategy == 'jira':
-            jira_issue_fetcher(tag, jira, '.temp/fetch_issues')
-        else:
-            raise Exception('Invalid fetch strategy!')
+    if issueFetchingStrategy == 'github':
+        github_issue_fetcher(
+            owner, repo, '.temp/fetch_issues', bugLabelName)
+    elif issueFetchingStrategy == 'jira':
+        jira_issue_fetcher(tag, jira, '.temp/fetch_issues')
+    else:
+        raise Exception('Invalid fetch strategy!')
 
-        sha = getFirstSha(owner, repo)
-        git_log_to_json(sha, repoPath, '.temp')
-        issue_list = find_bug_fixes('.temp/fetch_issues', '.temp/gitlog.json',
-                                    r'{tag}-{{nbr}}\D|#{{nbr}}\D'.format(tag=tag.upper()))
+    sha = getFirstSha(owner, repo)
+    git_log_to_json(sha, repoPath, '.temp')
+    issue_list = find_bug_fixes('.temp/fetch_issues', '.temp/gitlog.json',
+                                r'{tag}-{{nbr}}\D|#{{nbr}}\D'.format(tag=tag.upper()))
 
-        toSave = {}
+    toSave = {}
 
-        for key, issue in issue_list.items():
-            if issue['hash'] in data:
-                toSave[key] = issue
+    for key, issue in issue_list.items():
+        if issue['hash'] in data:
+            toSave[key] = issue
 
-        issue_list = toSave
+    issue_list = toSave
 
-        print(
-            f"Issues matched after Neto database filtering: {len(issue_list)}")
+    print(
+        f"Issues matched after Neto database filtering: {len(issue_list)}")
 
-        with open('.temp/issue_list.json', 'w', encoding="utf8") as f:
-            f.write(json.dumps(issue_list))
+    with open('.temp/issue_list.json', 'w', encoding="utf8") as f:
+        f.write(json.dumps(issue_list))
 
-    except Exception as e:
-        print('\u001b[31m{} failed with {}!!!\u001b[0m'.format(repo, e))
+    # except Exception as e:
+    #     print('\u001b[31m{} failed with {}!!!\u001b[0m'.format(repo, e))
