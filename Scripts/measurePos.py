@@ -57,13 +57,10 @@ def main(repoName):
 
     acc = (len(netoData) - len(notMatched))
     accWFile = (len(netoData) - len(notMatchedWithFile))
-    accFixes = (len(netoData) - len(notMatchedFixes))
 
-    print('Test how many in Neto are matched')
-    print(f'fixes matched: {accFixes}')
-    print(f'acc: {acc}')
-    print(f'acc with file: {accWFile}')
-    print(f'size: {len(netoData)}')
+    # print(f'In both without matching file: {acc}')
+    print(f'In both: {accWFile}')
+    print(f'In data set: {len(netoData)}')
 
     # Test how many matches in ra-unleashed are correct
     notMatched = szzData.copy()
@@ -80,11 +77,7 @@ def main(repoName):
     acc = (len(szzData) - len(notMatched))
     accWFile = (len(szzData) - len(notMatchedWithFile))
 
-    print()
-    print('Test how many in ra-unleashed are matched')
-    print(f'acc: {acc}')
-    print(f'acc with file: {accWFile}')
-    print(f'size: {len(szzData)}')
+    print(f'In results: {len(szzData)}')
 
 
 if __name__ == "__main__":
