@@ -1,18 +1,22 @@
 # Research reproduction
 
 ## Dependencies
+
 + git
 + java 8
 + python 3
 
 ## Dependencies installation (windows and macos)
+
 Download and install dependencies:
+
 + git: https://git-scm.com/
 + java: https://www.oracle.com/java/technologies/javase-jre8-downloads.html
 + python: https://www.python.org/
 
 ## Dependencies installation(linux)
-```
+
+```bash
 sudo apt update
 sudo apt install git
 sudo apt-get install openjdk-8-jre
@@ -20,53 +24,67 @@ sudo apt-get install python3
 ```
 
 ## Steps to reproduce
-Firstly you will need github token and place it in `Scripts/token.txt`
+
+### Requirements
+
++ You will need a [GitHub personal access token](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token). Place it in `Scripts/token.txt`. It is used for projects using GitHub as issue tracker.
 
 ### SZZUnleashed with and without improvements
 
 On windows replace python3 with python and pip3 with pip
 
-Prepare szz
-```
-git clone https://github.com/pwr-pbrwio/PBR20M1
-cd PBR20M1
-pip3 install -r requirements.txt
-cd ..
-```
-Get repository from data set (example of commons-lang)
-```
-mkdir commons-lang
-cd commons-lang
-git clone https://github.com/apache/commons-lang.git
-```
-Download project issues (filtered with data set)
-If using Jira as issue tracker
-```
-python3 ../PBR20M1/Scripts/getNetoIssues.py --owner "apache" --repo "commons-lang" --tag "lang" --repoPath "./commons-lang" --jira "issues.apache.org/jira"
-```
-If using Github as issue tracker (mockito as example)
-```
-python3 ../PBR20M1/Scripts/getNetoIssues.py --owner "mockito" --repo "mockito" --repoPath "./mockito" --fetchStrategy github
-```
-Run szz algorithm
-```
-java -jar "../PBR20M1/Scripts/unleashed/szz.jar" -i ".temp/issue_list.json" -r "./commons-lang" -d=3  -fix -ra -up -mt -fp
-```
-Where flags -fix -ra -up -mt -fp are optional
--fix enables fix
--ra runs SZZ with refactoring awareness
--up removes comments
--mt limits time between commits to 2 years
--fp limits SZZ to .java files
+1. Prepare szz:
 
-Get results
-```
-python3 ../PBR20M1/Scripts/measurePos.py --repoName="commons-lang"
-```
+    ```bash
+    git clone https://github.com/pwr-pbrwio/PBR20M1
+    cd PBR20M1
+    pip3 install -r requirements.txt
+    cd ..
+    ```
+
+2. Get repository from data set (example of commons-lang):
+
+    ```bash
+    mkdir commons-lang
+    cd commons-lang
+    git clone https://github.com/apache/commons-lang.git
+    ```
+
+3. Download project issues (filtered with data set)
+    If You are using Jira as the issue tracker:
+
+    ```bash
+    python3 ../PBR20M1/Scripts/getNetoIssues.py --owner "apache" --repo "commons-lang" --tag "lang" --repoPath "./commons-lang" --jira "issues.apache.org/jira"
+    ```
+
+    If You are using GitHub as the issue tracker (e.g. for `mockito`):
+
+    ```bash
+    python3 ../PBR20M1/Scripts/getNetoIssues.py --owner "mockito" --repo "mockito" --repoPath "./mockito" --fetchStrategy github
+    ```
+
+4. Run the SZZ algorithm:
+
+    ```bash
+    java -jar "../PBR20M1/Scripts/unleashed/szz.jar" -i ".temp/issue_list.json" -r "./commons-lang" -d=3  -fix -ra -up -mt -fp
+    ```
+
+    Where flags -fix -ra -up -mt -fp are optional:
+    -fix enables fix
+    -ra runs SZZ with refactoring awareness
+    -up removes comments
+    -mt limits time between commits to 2 years
+    -fp limits SZZ to .java files
+
+5. Get results:
+
+    ```bash
+    python3 ../PBR20M1/Scripts/measurePos.py --repoName="commons-lang"
+    ```
 
 ### OpenSZZ
 
-#### Requirements
+#### Dependency requirements
 
 The following software is required:
 
