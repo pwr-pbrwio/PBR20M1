@@ -2,10 +2,9 @@
 # To run you will need github token
 import requests
 import csv
+import os
 
 csvPath = './dataset_bugfix_bic.csv'
-REPO_NAME = 'commons-lang'
-REPO_OWNER = 'apache'
 
 with open(os.path.realpath(os.path.join(os.path.dirname(__file__), './token.txt'))) as tokenFile:
     token = tokenFile.readline()
