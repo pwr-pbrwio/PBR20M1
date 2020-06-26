@@ -20,6 +20,7 @@ sudo apt-get install python3
 ```
 
 ## Steps to reproduce
+Firstly you will need github token and place it in Scripts/token.txt
 
 ### SZZUnleashed with and without improvements
 
