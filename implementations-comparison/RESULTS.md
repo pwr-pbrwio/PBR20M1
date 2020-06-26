@@ -31,15 +31,15 @@ Results of the `commons-bcel` were used.
 - Matching pairs count: 27
 - Matching unique pairs count: 11
 
-# Summary
+## Summary
 
 Many resulting pairs were compared manually based on both the changed logic and changed files.
 Most of those cases resulted in exclusion of some of the commits in further analysis due to formatting changes or release commits.
 Hardly any real bug introducing and bug fixing pairs were found for both of the implementations.
 
-# Script output
+## Script output
 
-```
+```text
 ##### Comparison results #####
 Matching pairs count: 27
 Matching unique pairs count: 11
