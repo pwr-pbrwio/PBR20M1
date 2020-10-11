@@ -1,5 +1,5 @@
 # PBR20M1
-Projekt badawczo-rozwojowy w inżynierii oprogramowania 2020 - zespół PBR20M1:
+Research and Development Project in Software Engineering (Projekt badawczo-rozwojowy w inżynierii oprogramowania) 2020 - team PBR20M1:
 - Lech Madeyski
 - Jarosław Pokropiński, Github: JaroslawPokropinski, idx: 236519
 - Patryk Kramarczyk, Github: pkramarczyk, idx: 257413
