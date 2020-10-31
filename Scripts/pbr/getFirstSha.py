@@ -1,4 +1,5 @@
 import requests
+import os
 
 githubRepoUrl = r'https://api.github.com/repos/{owner}/{repo}'
 # githubCommitsUrl = r'https://api.github.com/repos/{owner}/{repo}/commits?per_page=1&page=1&until={until}'
